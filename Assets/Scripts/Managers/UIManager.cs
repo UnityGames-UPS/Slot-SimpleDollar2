@@ -250,6 +250,7 @@ public class UIManager : MonoBehaviour
   [SerializeField] internal ImageAnimation Redline2;
   [SerializeField] internal ImageAnimation IntroAnimations;
   [SerializeField] internal GameObject bonusBlocker;
+  [SerializeField] internal ImageAnimation FullSlotAnim;
   private int SpinCount = 0;
   private int currentBet = 10;
   private bool isAtOpen = false;

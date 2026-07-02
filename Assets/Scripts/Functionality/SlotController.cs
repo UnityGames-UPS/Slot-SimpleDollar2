@@ -290,7 +290,11 @@ public class SlotController : MonoBehaviour
     }
     if (socketManager.ResultData.payload.winAmount > 0)
     {
-      yield return new WaitForSeconds(2f);
+      uiController.FullSlotAnim.gameObject.SetActive(true);
+      uiController.FullSlotAnim.StartAnimation();
+      yield return new WaitForSeconds(1f);
+      uiController.FullSlotAnim.StopAnimation();
+      uiController.FullSlotAnim.gameObject.SetActive(false);
       forthslot.PlayFlip(socketManager.ResultData.payload.appliedMultiplier);
       yield return new WaitForSeconds(3f);
     }
@@ -624,6 +628,58 @@ public class SlotController : MonoBehaviour
   #region BonusFeature
   int count = 1;
   int trys = 5;
+  // internal void switchtoBonusGame(bool isBonus = false)
+  // {
+  //   if (!isBonus)
+  //   {
+  //     uiController.MoveToBonus();
+  //     uiController.BonusCenterText.text = "SIMPLE DOLLAR";
+  //     count = 0;
+  //     trys = 5;
+  //     uiController.BonusButtonToggle(true);
+  //   }
+  //   uiController.setallBonusfalse(); // reset all highlights first
+  //   count++;
+  //   // uiController.BonusCenterText.text = count + " OF 5 OFFER";
+  //   string ps = count + " OF 5 OFFER";
+  //   StretchText(ps);
+  //   var bonusSettings = socketManager.FeaturesData.bonusSettings;
+  //   List<Reward> offers;
+  //   if (!isBonus) offers = socketManager.ResultData.payload.bonusData.rewards;
+  //   else offers = socketManager.BonusData.payload.bonusData.rewards;
+
+  //   for (int i = 0; i < uiController.bonusPrefabs.Count; i++)
+  //   {
+  //     bool isMatch = false;
+
+  //     foreach (var reward in offers)
+  //     {
+  //       if (reward.position == i)
+  //       {
+  //         isMatch = true;
+  //         if (!reward.isLocked)
+  //         {
+  //           if (reward.type == "extraoffer") uiController.bonusPrefabs[i].ShowResult(6);
+  //           else uiController.bonusPrefabs[i].ShowResult(reward.multiplierIndex);
+  //         }
+  //         // uiController.bonusPrefabs[i].Highlight.SetActive(isMatch);
+  //         break;
+  //       }
+  //     }
+
+  //     if (!isMatch)
+  //     {
+  //       uiController.bonusPrefabs[i].ShowResult(7);
+
+  //     }
+  //     uiController.bonusPrefabs[i].Highlight.SetActive(isMatch);
+
+  //   }
+  //   if (count == 5)
+  //   {
+  //     StartCoroutine(LastBonus());
+  //   }
+  // }
   internal void switchtoBonusGame(bool isBonus = false)
   {
     if (!isBonus)
@@ -636,18 +692,22 @@ public class SlotController : MonoBehaviour
     }
     uiController.setallBonusfalse(); // reset all highlights first
     count++;
-    // uiController.BonusCenterText.text = count + " OF 5 OFFER";
     string ps = count + " OF 5 OFFER";
     StretchText(ps);
-    var bonusSettings = socketManager.FeaturesData.bonusSettings;
-    List<Reward> offers;
-    if (!isBonus) offers = socketManager.ResultData.payload.bonusData.rewards;
-    else offers = socketManager.BonusData.payload.bonusData.rewards;
 
+    var bonusSettings = socketManager.FeaturesData.bonusSettings;
+    List<Reward> offers = !isBonus
+        ? socketManager.ResultData.payload.bonusData.rewards
+        : socketManager.BonusData.payload.bonusData.rewards;
+
+    StartCoroutine(RevealBonusPrefabs(offers));
+  }
+
+  private IEnumerator RevealBonusPrefabs(List<Reward> offers, float delayBetween = 0.2f)
+  {
     for (int i = 0; i < uiController.bonusPrefabs.Count; i++)
     {
       bool isMatch = false;
-
       foreach (var reward in offers)
       {
         if (reward.position == i)
@@ -658,19 +718,18 @@ public class SlotController : MonoBehaviour
             if (reward.type == "extraoffer") uiController.bonusPrefabs[i].ShowResult(6);
             else uiController.bonusPrefabs[i].ShowResult(reward.multiplierIndex);
           }
-          // uiController.bonusPrefabs[i].Highlight.SetActive(isMatch);
           break;
         }
       }
-
       if (!isMatch)
       {
         uiController.bonusPrefabs[i].ShowResult(7);
-
       }
       uiController.bonusPrefabs[i].Highlight.SetActive(isMatch);
 
+      yield return new WaitForSeconds(delayBetween);
     }
+
     if (count == 5)
     {
       StartCoroutine(LastBonus());

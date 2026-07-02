@@ -2,10 +2,12 @@ using UnityEngine.UI;
 using UnityEngine;
 using System.Collections.Generic;
 using DG.Tweening;
+using System.Collections;
 
 public class BonusDollar : MonoBehaviour
 {
     [SerializeField] internal GameObject Highlight;
+    [SerializeField] internal GameObject SemiHighlight;
     [SerializeField] internal SpriteNumberText textField;
     [SerializeField] internal Image BonusResult;
     [SerializeField] internal List<Sprite> ResultSprite;
@@ -35,6 +37,7 @@ public class BonusDollar : MonoBehaviour
 
     internal void ShowResult(int index)
     {
+        StartCoroutine(Hide());
         if (index < 0 || index >= ResultSprite.Count)
         {
             Debug.LogWarning($"BonusDollar: index {index} out of range for ResultSprite (count {ResultSprite.Count})");
@@ -61,5 +64,11 @@ public class BonusDollar : MonoBehaviour
         InitPositions();
         resultRect.anchoredPosition = restingPosition + new Vector2(0f, slideDistance);
         BonusResult.gameObject.SetActive(false);
+    }
+    IEnumerator Hide()
+    {
+        SemiHighlight.gameObject.SetActive(true);
+        yield return new WaitForSeconds(0.2f);
+        SemiHighlight.gameObject.SetActive(false);
     }
 }
