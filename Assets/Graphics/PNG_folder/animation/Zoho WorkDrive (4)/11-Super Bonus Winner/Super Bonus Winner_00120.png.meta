@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: cb41495f4d9dc45e38c023f2bcaa7615
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1842052950089823616
+    second: Super Bonus Winner_00120_0
+  - first:
+      213: -4048261234602013278
+    second: Super Bonus Winner_00120_1
+  - first:
+      213: -3372880771775501234
+    second: Super Bonus Winner_00120_2
+  - first:
+      213: 7652874760664223085
+    second: Super Bonus Winner_00120_3
+  - first:
+      213: -1242135570013267533
+    second: Super Bonus Winner_00120_4
+  - first:
+      213: -7613799844712957748
+    second: Super Bonus Winner_00120_5
+  - first:
+      213: 991272274924035143
+    second: Super Bonus Winner_00120_6
+  - first:
+      213: 98848810484839422
+    second: Super Bonus Winner_00120_7
+  - first:
+      213: 3492354332608341111
+    second: Super Bonus Winner_00120_8
+  - first:
+      213: -8383959676675441227
+    second: Super Bonus Winner_00120_9
+  - first:
+      213: -8924684670870550097
+    second: Super Bonus Winner_00120_10
+  - first:
+      213: 1109909723222559506
+    second: Super Bonus Winner_00120_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Super Bonus Winner_00120_0
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 302
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a8f6cf996bf66e0800000000000000
+      internalID: -1842052950089823616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super Bonus Winner_00120_1
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 317
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad00911bdfa1d7c0800000000000000
+      internalID: -4048261234602013278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super Bonus Winner_00120_2
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 307
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c6390fece1131d0800000000000000
+      internalID: -3372880771775501234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super Bonus Winner_00120_3
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 231
+        width: 77
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d81f35c09743a60800000000000000
+      internalID: 7652874760664223085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super Bonus Winner_00120_4
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 43
+        width: 40
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b95b7ab74c03cee0800000000000000
+      internalID: -1242135570013267533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super Bonus Winner_00120_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 8
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8b5f08169565690800000000000000
+      internalID: -7613799844712957748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super Bonus Winner_00120_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 251
+        width: 84
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c5a8ec1e4b1cd00800000000000000
+      internalID: 991272274924035143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super Bonus Winner_00120_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 211
+        width: 90
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef33b6b287e2f5100800000000000000
+      internalID: 98848810484839422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super Bonus Winner_00120_8
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 231
+        width: 97
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774aae023c5577030800000000000000
+      internalID: 3492354332608341111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super Bonus Winner_00120_9
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 12
+        width: 264
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdbf8c181136ab80800000000000000
+      internalID: -8383959676675441227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super Bonus Winner_00120_10
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 85
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9036ca396252480800000000000000
+      internalID: -8924684670870550097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super Bonus Winner_00120_11
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 65
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21bce614301376f00800000000000000
+      internalID: 1109909723222559506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Super Bonus Winner_00120_0: -1842052950089823616
+      Super Bonus Winner_00120_1: -4048261234602013278
+      Super Bonus Winner_00120_10: -8924684670870550097
+      Super Bonus Winner_00120_11: 1109909723222559506
+      Super Bonus Winner_00120_2: -3372880771775501234
+      Super Bonus Winner_00120_3: 7652874760664223085
+      Super Bonus Winner_00120_4: -1242135570013267533
+      Super Bonus Winner_00120_5: -7613799844712957748
+      Super Bonus Winner_00120_6: 991272274924035143
+      Super Bonus Winner_00120_7: 98848810484839422
+      Super Bonus Winner_00120_8: 3492354332608341111
+      Super Bonus Winner_00120_9: -8383959676675441227
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

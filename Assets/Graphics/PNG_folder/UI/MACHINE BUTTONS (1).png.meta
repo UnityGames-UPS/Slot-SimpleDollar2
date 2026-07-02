@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: 6691e6f5c78094fe6ba527e4cc84422b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7166581157078437022
+    second: MACHINE BUTTONS (1)_0
+  - first:
+      213: -2384686341129909442
+    second: MACHINE BUTTONS (1)_1
+  - first:
+      213: 4333609774592633485
+    second: MACHINE BUTTONS (1)_2
+  - first:
+      213: -8395469990558566126
+    second: MACHINE BUTTONS (1)_3
+  - first:
+      213: -3182347236563393728
+    second: MACHINE BUTTONS (1)_4
+  - first:
+      213: 5220891758765347637
+    second: MACHINE BUTTONS (1)_5
+  - first:
+      213: -7703592447232818701
+    second: MACHINE BUTTONS (1)_6
+  - first:
+      213: -8943760393332053710
+    second: MACHINE BUTTONS (1)_7
+  - first:
+      213: -1382049621469638709
+    second: MACHINE BUTTONS (1)_8
+  - first:
+      213: 9161889794780488005
+    second: MACHINE BUTTONS (1)_9
+  - first:
+      213: -1539666825683955827
+    second: MACHINE BUTTONS (1)_10
+  - first:
+      213: -8164107819385710317
+    second: MACHINE BUTTONS (1)_11
+  - first:
+      213: 2539161752105477237
+    second: MACHINE BUTTONS (1)_12
+  - first:
+      213: 2474603473613545764
+    second: MACHINE BUTTONS (1)_13
+  - first:
+      213: -9102058942556859948
+    second: MACHINE BUTTONS (1)_14
+  - first:
+      213: 1930330271428922918
+    second: MACHINE BUTTONS (1)_15
+  - first:
+      213: 6278620394943159663
+    second: MACHINE BUTTONS (1)_16
+  - first:
+      213: 4539932649500496528
+    second: MACHINE BUTTONS (1)_17
+  - first:
+      213: 8887560851026223119
+    second: MACHINE BUTTONS (1)_18
+  - first:
+      213: 1229771422000408113
+    second: MACHINE BUTTONS (1)_19
+  - first:
+      213: -6348260325387218745
+    second: MACHINE BUTTONS (1)_20
+  - first:
+      213: -7295705762378421863
+    second: MACHINE BUTTONS (1)_21
+  - first:
+      213: -2651645344721241392
+    second: MACHINE BUTTONS (1)_22
+  - first:
+      213: 6625151133171675413
+    second: MACHINE BUTTONS (1)_23
+  - first:
+      213: 6178703810846616800
+    second: MACHINE BUTTONS (1)_24
+  - first:
+      213: -4653862940879597146
+    second: MACHINE BUTTONS (1)_25
+  - first:
+      213: 5809074801384442580
+    second: MACHINE BUTTONS (1)_26
+  - first:
+      213: -2236912284899588295
+    second: MACHINE BUTTONS (1)_27
+  - first:
+      213: 6115633034040426569
+    second: MACHINE BUTTONS (1)_28
+  - first:
+      213: -970676442327390610
+    second: MACHINE BUTTONS (1)_29
+  - first:
+      213: 1448389442927551033
+    second: MACHINE BUTTONS (1)_30
+  - first:
+      213: 11175416136582948
+    second: MACHINE BUTTONS (1)_31
+  - first:
+      213: 7569758512997491253
+    second: MACHINE BUTTONS (1)_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 724
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c0ba9979fc47360800000000000000
+      internalID: 7166581157078437022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 707
+        width: 106
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bc9384864e7eed0800000000000000
+      internalID: -2384686341129909442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 710
+        width: 146
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a21c92123142c30800000000000000
+      internalID: 4333609774592633485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 708
+        width: 103
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219fd42568c4d7b80800000000000000
+      internalID: -8395469990558566126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_4
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 691
+        width: 269
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04361b49c0806d3d0800000000000000
+      internalID: -3182347236563393728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_5
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 696
+        width: 172
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53319f3a465547840800000000000000
+      internalID: 5220891758765347637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 699
+        width: 269
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f14e401c77571590800000000000000
+      internalID: -7703592447232818701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 574
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2392c3fee4161e380800000000000000
+      internalID: -8943760393332053710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 557
+        width: 106
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfc6521139f1dce0800000000000000
+      internalID: -1382049621469638709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 560
+        width: 146
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541ea210a32952f70800000000000000
+      internalID: 9161889794780488005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_10
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 558
+        width: 103
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f87a6fd2102aae0800000000000000
+      internalID: -1539666825683955827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 545
+        width: 269
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319968d813343be80800000000000000
+      internalID: -8164107819385710317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_12
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 546
+        width: 172
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5746185192aec3320800000000000000
+      internalID: 2539161752105477237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 549
+        width: 269
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421eeac8fbe875220800000000000000
+      internalID: 2474603473613545764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 403
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d11b34dd9dfea180800000000000000
+      internalID: -9102058942556859948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 386
+        width: 106
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e44bf8729e9ca10800000000000000
+      internalID: 1930330271428922918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_16
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 389
+        width: 146
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d1c10dbf3222750800000000000000
+      internalID: 6278620394943159663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_17
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 387
+        width: 103
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092dcade0b4110f30800000000000000
+      internalID: 4539932649500496528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_18
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 368
+        width: 269
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0026157185f65b70800000000000000
+      internalID: 8887560851026223119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_19
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 375
+        width: 172
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136e24bb796011110800000000000000
+      internalID: 1229771422000408113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 378
+        width: 269
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0d69b5ed276e7a0800000000000000
+      internalID: -6348260325387218745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999e9af634270ca90800000000000000
+      internalID: -7295705762378421863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_22
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 223
+        width: 106
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da7295ab96733bd0800000000000000
+      internalID: -2651645344721241392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_23
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 226
+        width: 146
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51179f3aad341fb50800000000000000
+      internalID: 6625151133171675413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_24
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 224
+        width: 103
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec6dd9316a2fb550800000000000000
+      internalID: 6178703810846616800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_25
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 212
+        width: 269
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1548fff482a6fb0800000000000000
+      internalID: -4653862940879597146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_26
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 212
+        width: 172
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da413a01cafd9050800000000000000
+      internalID: 5809074801384442580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_27
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 215
+        width: 269
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9374ad8e024e4f0e0800000000000000
+      internalID: -2236912284899588295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 45
+        width: 172
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940cf9aa7d71fd450800000000000000
+      internalID: 6115633034040426569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_29
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 43
+        width: 172
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e666c372be67782f0800000000000000
+      internalID: -970676442327390610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_30
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 57
+        width: 324
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9326f124686b91410800000000000000
+      internalID: 1448389442927551033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 48
+        width: 172
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427c9055bf3b72000800000000000000
+      internalID: 11175416136582948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MACHINE BUTTONS (1)_32
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 48
+        width: 172
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53264b2e24f2d0960800000000000000
+      internalID: 7569758512997491253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MACHINE BUTTONS (1)_0: 7166581157078437022
+      MACHINE BUTTONS (1)_1: -2384686341129909442
+      MACHINE BUTTONS (1)_10: -1539666825683955827
+      MACHINE BUTTONS (1)_11: -8164107819385710317
+      MACHINE BUTTONS (1)_12: 2539161752105477237
+      MACHINE BUTTONS (1)_13: 2474603473613545764
+      MACHINE BUTTONS (1)_14: -9102058942556859948
+      MACHINE BUTTONS (1)_15: 1930330271428922918
+      MACHINE BUTTONS (1)_16: 6278620394943159663
+      MACHINE BUTTONS (1)_17: 4539932649500496528
+      MACHINE BUTTONS (1)_18: 8887560851026223119
+      MACHINE BUTTONS (1)_19: 1229771422000408113
+      MACHINE BUTTONS (1)_2: 4333609774592633485
+      MACHINE BUTTONS (1)_20: -6348260325387218745
+      MACHINE BUTTONS (1)_21: -7295705762378421863
+      MACHINE BUTTONS (1)_22: -2651645344721241392
+      MACHINE BUTTONS (1)_23: 6625151133171675413
+      MACHINE BUTTONS (1)_24: 6178703810846616800
+      MACHINE BUTTONS (1)_25: -4653862940879597146
+      MACHINE BUTTONS (1)_26: 5809074801384442580
+      MACHINE BUTTONS (1)_27: -2236912284899588295
+      MACHINE BUTTONS (1)_28: 6115633034040426569
+      MACHINE BUTTONS (1)_29: -970676442327390610
+      MACHINE BUTTONS (1)_3: -8395469990558566126
+      MACHINE BUTTONS (1)_30: 1448389442927551033
+      MACHINE BUTTONS (1)_31: 11175416136582948
+      MACHINE BUTTONS (1)_32: 7569758512997491253
+      MACHINE BUTTONS (1)_4: -3182347236563393728
+      MACHINE BUTTONS (1)_5: 5220891758765347637
+      MACHINE BUTTONS (1)_6: -7703592447232818701
+      MACHINE BUTTONS (1)_7: -8943760393332053710
+      MACHINE BUTTONS (1)_8: -1382049621469638709
+      MACHINE BUTTONS (1)_9: 9161889794780488005
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

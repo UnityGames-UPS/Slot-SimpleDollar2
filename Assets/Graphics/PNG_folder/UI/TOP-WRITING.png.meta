@@ -1,0 +1,609 @@
+fileFormatVersion: 2
+guid: 90f2faa8e68434fceb050461ce1808c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8262869596125856485
+    second: TOP-WRITING_0
+  - first:
+      213: 582581551611797700
+    second: TOP-WRITING_1
+  - first:
+      213: 4342481627428914330
+    second: TOP-WRITING_2
+  - first:
+      213: 8492797549826903548
+    second: TOP-WRITING_3
+  - first:
+      213: 5355377133066399879
+    second: TOP-WRITING_4
+  - first:
+      213: 620415630407501214
+    second: TOP-WRITING_5
+  - first:
+      213: -4449101897487725805
+    second: TOP-WRITING_6
+  - first:
+      213: 231868681971807920
+    second: TOP-WRITING_7
+  - first:
+      213: 7516926737717152211
+    second: TOP-WRITING_8
+  - first:
+      213: 4371069440698196762
+    second: TOP-WRITING_9
+  - first:
+      213: -4650913706907937241
+    second: TOP-WRITING_10
+  - first:
+      213: 8976304372589044537
+    second: TOP-WRITING_11
+  - first:
+      213: -5378851505827701998
+    second: TOP-WRITING_12
+  - first:
+      213: 1850424611405337845
+    second: TOP-WRITING_13
+  - first:
+      213: 2038030715992708271
+    second: TOP-WRITING_14
+  - first:
+      213: -8774399381551619548
+    second: TOP-WRITING_15
+  - first:
+      213: 8480990469717289034
+    second: TOP-WRITING_16
+  - first:
+      213: -992893137697838946
+    second: TOP-WRITING_17
+  - first:
+      213: 2036709053847488684
+    second: TOP-WRITING_18
+  - first:
+      213: 3294818669748920121
+    second: TOP-WRITING_19
+  - first:
+      213: 5091404535768057759
+    second: TOP-WRITING_20
+  - first:
+      213: 2224936511717835647
+    second: TOP-WRITING_21
+  - first:
+      213: 2032332094982001133
+    second: TOP-WRITING_22
+  - first:
+      213: 3574297059637604270
+    second: TOP-WRITING_23
+  - first:
+      213: -8035655189018211143
+    second: TOP-WRITING_24
+  - first:
+      213: -7689718500912876859
+    second: TOP-WRITING_25
+  - first:
+      213: -6917512984110645974
+    second: TOP-WRITING_26
+  - first:
+      213: 4003858606728708559
+    second: TOP-WRITING_27
+  - first:
+      213: 6630218154865299913
+    second: TOP-WRITING_28
+  - first:
+      213: 776766579646934294
+    second: TOP-WRITING_29
+  - first:
+      213: -2804063206461501391
+    second: TOP-WRITING_30
+  - first:
+      213: -493111463554928249
+    second: TOP-WRITING_31
+  - first:
+      213: 1856568911588529113
+    second: TOP-WRITING_32
+  - first:
+      213: -2688949658903454627
+    second: TOP-WRITING_33
+  - first:
+      213: -8348200186479490900
+    second: TOP-WRITING_34
+  - first:
+      213: -6827185554182231897
+    second: TOP-WRITING_35
+  - first:
+      213: -8298311966408848171
+    second: TOP-WRITING_36
+  - first:
+      213: 1785435483927506611
+    second: TOP-WRITING_37
+  - first:
+      213: 1839614174283448060
+    second: TOP-WRITING_38
+  - first:
+      213: -5177257050934744632
+    second: TOP-WRITING_39
+  - first:
+      213: 1626162397907134885
+    second: TOP-WRITING_40
+  - first:
+      213: -9176936337957999150
+    second: TOP-WRITING_41
+  - first:
+      213: 2216791552515390569
+    second: TOP-WRITING_42
+  - first:
+      213: 3330954165950667017
+    second: TOP-WRITING_43
+  - first:
+      213: 6829883754221983071
+    second: TOP-WRITING_44
+  - first:
+      213: -6445388978618736750
+    second: TOP-WRITING_45
+  - first:
+      213: 2964674841848552111
+    second: TOP-WRITING_46
+  - first:
+      213: -2903474825968683523
+    second: TOP-WRITING_47
+  - first:
+      213: -4544747179734164994
+    second: TOP-WRITING_48
+  - first:
+      213: -4356610130200232235
+    second: TOP-WRITING_49
+  - first:
+      213: 1566887974969821304
+    second: TOP-WRITING_50
+  - first:
+      213: 2571801067324277007
+    second: TOP-WRITING_51
+  - first:
+      213: -4431299047216274712
+    second: TOP-WRITING_52
+  - first:
+      213: 152723385646209922
+    second: TOP-WRITING_53
+  - first:
+      213: 9017618703729782828
+    second: TOP-WRITING_54
+  - first:
+      213: -2968850795990522568
+    second: TOP-WRITING_55
+  - first:
+      213: -1466289730362728926
+    second: TOP-WRITING_56
+  - first:
+      213: -3557216181392173487
+    second: TOP-WRITING_57
+  - first:
+      213: -1270450603951597779
+    second: TOP-WRITING_58
+  - first:
+      213: -6895097250781067345
+    second: TOP-WRITING_59
+  - first:
+      213: 2572471331436316905
+    second: TOP-WRITING_60
+  - first:
+      213: -256649685326428444
+    second: TOP-WRITING_61
+  - first:
+      213: -33217819888927114
+    second: TOP-WRITING_62
+  - first:
+      213: -5016299191413346436
+    second: TOP-WRITING_63
+  - first:
+      213: -2639180687353414729
+    second: TOP-WRITING_64
+  - first:
+      213: -174484260888798998
+    second: TOP-WRITING_65
+  - first:
+      213: 5645336507621012281
+    second: TOP-WRITING_66
+  - first:
+      213: 7859464620367998767
+    second: TOP-WRITING_67
+  - first:
+      213: 6368809095686963331
+    second: TOP-WRITING_68
+  - first:
+      213: 6851944435589315952
+    second: TOP-WRITING_69
+  - first:
+      213: 2350597083439758295
+    second: TOP-WRITING_70
+  - first:
+      213: -664149593442555686
+    second: TOP-WRITING_71
+  - first:
+      213: 52579487916861865
+    second: TOP-WRITING_72
+  - first:
+      213: 8150089028675574046
+    second: TOP-WRITING_73
+  - first:
+      213: -8442954840572408373
+    second: TOP-WRITING_74
+  - first:
+      213: -1312760838500458580
+    second: TOP-WRITING_75
+  - first:
+      213: -2715403479578317915
+    second: TOP-WRITING_76
+  - first:
+      213: -8279009658023513398
+    second: TOP-WRITING_77
+  - first:
+      213: -5276670368673273197
+    second: TOP-WRITING_78
+  - first:
+      213: 2821600629560933270
+    second: TOP-WRITING_79
+  - first:
+      213: 2982923615463754365
+    second: TOP-WRITING_80
+  - first:
+      213: 4202310824742821467
+    second: TOP-WRITING_81
+  - first:
+      213: -5078572564418895232
+    second: TOP-WRITING_82
+  - first:
+      213: 1578285022864351490
+    second: TOP-WRITING_83
+  - first:
+      213: -494013212616280583
+    second: TOP-WRITING_84
+  - first:
+      213: 7804606079591004080
+    second: TOP-WRITING_85
+  - first:
+      213: -5222700918847441772
+    second: TOP-WRITING_86
+  - first:
+      213: -6342506036010660860
+    second: TOP-WRITING_87
+  - first:
+      213: 8150784822165090841
+    second: TOP-WRITING_88
+  - first:
+      213: 1760227889316233132
+    second: TOP-WRITING_89
+  - first:
+      213: -2646591478024241610
+    second: TOP-WRITING_90
+  - first:
+      213: -3001284536318005839
+    second: TOP-WRITING_91
+  - first:
+      213: -887627669121794104
+    second: TOP-WRITING_92
+  - first:
+      213: 139110348284639185
+    second: TOP-WRITING_93
+  - first:
+      213: 507106297322076157
+    second: TOP-WRITING_94
+  - first:
+      213: -4716364354302831096
+    second: TOP-WRITING_95
+  - first:
+      213: 8170384227422763006
+    second: TOP-WRITING_96
+  - first:
+      213: -3729587535078120359
+    second: TOP-WRITING_97
+  - first:
+      213: 7384082037074833017
+    second: TOP-WRITING_98
+  - first:
+      213: -4998315782415602428
+    second: TOP-WRITING_99
+  - first:
+      213: -5321163226774421809
+    second: TOP-WRITING_100
+  - first:
+      213: 1051353260280908318
+    second: TOP-WRITING_101
+  - first:
+      213: -234804688057208796
+    second: TOP-WRITING_102
+  - first:
+      213: -7059961008073662276
+    second: TOP-WRITING_103
+  - first:
+      213: -6661523492060087959
+    second: TOP-WRITING_104
+  - first:
+      213: 2547323669300526786
+    second: TOP-WRITING_105
+  - first:
+      213: -1981781235834271345
+    second: TOP-WRITING_106
+  - first:
+      213: 269434443967000749
+    second: TOP-WRITING_107
+  - first:
+      213: -4478026813682632056
+    second: TOP-WRITING_108
+  - first:
+      213: -871998997342071917
+    second: TOP-WRITING_109
+  - first:
+      213: -5951235886831402046
+    second: TOP-WRITING_110
+  - first:
+      213: -4758451588739990919
+    second: TOP-WRITING_111
+  - first:
+      213: 1207619909210389635
+    second: TOP-WRITING_112
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TOP-WRITING_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 162
+        width: 319
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2057e7e1c9ba270800000000000000
+      internalID: 8262869596125856485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOP-WRITING_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 93
+        width: 372
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c06484a5deb51800800000000000000
+      internalID: 582581551611797700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOP-WRITING_2
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 37
+        width: 361
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a948f8e5808934c30800000000000000
+      internalID: 4342481627428914330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOP-WRITING_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 23
+        width: 427
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd8db2ff5a7cd570800000000000000
+      internalID: 8492797549826903548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOP-WRITING_4
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 150
+        width: 88
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039d858643cca41c3b2d0323c86d1fde
+      internalID: 5355377133066399879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOP-WRITING_5
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 93
+        width: 137
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5932983ecb75545a7b76971d10e281b8
+      internalID: -1534244377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cd0ebcba26eb24510b3f3ccbd9c28bc6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":622.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      TOP-WRITING_0: 8262869596125856485
+      TOP-WRITING_1: 582581551611797700
+      TOP-WRITING_2: 4342481627428914330
+      TOP-WRITING_3: 8492797549826903548
+      TOP-WRITING_4: 5355377133066399879
+      TOP-WRITING_5: -1534244377
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
