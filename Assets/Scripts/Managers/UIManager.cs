@@ -1326,14 +1326,18 @@ public class UIManager : MonoBehaviour
   }
   void OnTakeoutClicked()
   {
-    audioController.PlayButtonAudio();
+    // audioController.PlayButtonAudio();
     socketManager.AccumulateBonus("ACCEPT");
     ScaleEffect();
+    BonusButtonToggle(false);
+    if (audioController) audioController.PlayWLAudio("tryagain");
   }
   void OnTryagainClicked()
   {
-    audioController.PlayButtonAudio();
+    if (audioController) audioController.PlayWLAudio("tryagain");
+    // audioController.PlayButtonAudio();
     socketManager.AccumulateBonus("REJECT");
+    BonusButtonToggle(false);
     // ScaleEffect();
   }
 
@@ -1435,11 +1439,12 @@ public class UIManager : MonoBehaviour
 
   internal void PlayLockedAnimation(bool isLocking)
   {
+    Debug.Log("xxxxxx" + isLocking + "adjksfhjkasdhfjkhdsf");
     Locked.SetActive(true);
-    if (isLocking) if (audioController) audioController.PlayWLAudio("locked");
     ImageAnimation anim = Locked.GetComponent<ImageAnimation>();
     anim.StopAnimation();
     anim.StartAnimation();
+    if (audioController) audioController.PlayWLAudio("locked");
 
 
 

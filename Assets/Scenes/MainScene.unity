@@ -1083,7 +1083,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 136, y: -40.829}
+  m_AnchoredPosition: {x: 181, y: -34}
   m_SizeDelta: {x: 286.8, y: 341.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &35815719
@@ -1210,7 +1210,7 @@ MonoBehaviour:
   useSharedMaterial: 1
   doLoopAnimation: 0
   currentAnimationState: 0
-  AnimationSpeed: 100
+  AnimationSpeed: 120
   delayBetweenLoop: 0
   StartOnAwake: 0
   OriginalSprite: {fileID: 0}
@@ -4421,14 +4421,14 @@ RectTransform:
   m_GameObject: {fileID: 194845695}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1485219722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -964.06, y: 493.5}
+  m_AnchoredPosition: {x: -1051, y: 493.5}
   m_SizeDelta: {x: 233.7, y: 159.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &194845697
@@ -9316,7 +9316,7 @@ MonoBehaviour:
   slotManager: {fileID: 2046803210}
   uiManager: {fileID: 1534933550}
   JSManager: {fileID: 97085823}
-  testToken: 1e93f4a8d8424da0b4fe8e93fe0d1205
+  testToken: bac6dbaca05f48a6b0118b1a6656faee
   RaycastBlocker: {fileID: 1115552970}
 --- !u!1 &503942312
 GameObject:
@@ -11623,7 +11623,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7567730687905839175, guid: 2104e57dfc4cd4c689ce8b56a205209c, type: 3}
+  m_Sprite: {fileID: 8262869596125856485, guid: 90f2faa8e68434fceb050461ce1808c7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -13197,7 +13197,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5676429911908790468, guid: a645c62aa8224423ba53767c4d562ef5, type: 3}
+  m_Sprite: {fileID: 4289194146000858315, guid: ee558cba6465f4eda93222e11d4d61ac, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -34186,7 +34186,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8492797549826903548, guid: 90f2faa8e68434fceb050461ce1808c7, type: 3}
+  m_Sprite: {fileID: 582581551611797700, guid: 90f2faa8e68434fceb050461ce1808c7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -34776,7 +34776,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1935316707
 RectTransform:
   m_ObjectHideFlags: 0
@@ -34793,7 +34793,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 5, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1935316708
@@ -34816,7 +34816,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: SIMPLE DOLLAR II
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 439bc8b5366f5426cb7dac1b265fb93e, type: 2}
   m_sharedMaterial: {fileID: -8109225827521093801, guid: 439bc8b5366f5426cb7dac1b265fb93e, type: 2}
@@ -34825,8 +34825,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4291031034
-  m_fontColor: {r: 0.98039216, g: 0.9372549, b: 0.7647059, a: 1}
+    rgba: 4293327615
+  m_fontColor: {r: 1, g: 0.98018867, b: 0.9009434, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -39060,9 +39060,15 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 809316eb8995b4444834e6ae666aab14, type: 3}
   - {fileID: 8300000, guid: 7dc6a4b37f1934fd298b8806d86aa431, type: 3}
   - {fileID: 8300000, guid: 73c82a496e7ee456e9e22492e544d4a7, type: 3}
-  - {fileID: 8300000, guid: 784e632bdc4284438a647d9924d9de33, type: 3}
-  - {fileID: 8300000, guid: 6b2517226a34a448486582e5be830cb3, type: 3}
-  - {fileID: 8300000, guid: 6b2517226a34a448486582e5be830cb3, type: 3}
+  - {fileID: 8300000, guid: 97abaeec8bdbe46338575c321374899b, type: 3}
+  - {fileID: 8300000, guid: cefb03ce9a2144abbaec18951f839387, type: 3}
+  - {fileID: 8300000, guid: 1328a1bac9451478191fe208c272ff34, type: 3}
+  - {fileID: 8300000, guid: ec781948f0228495c984b3c74895034a, type: 3}
+  - {fileID: 8300000, guid: 2b7c8d0dae81a4d7a8356116c9ffea90, type: 3}
+  - {fileID: 8300000, guid: 774e78261b60f4b4a90099dcc53f1120, type: 3}
+  - {fileID: 8300000, guid: 53518fb2de0544ccfa732abbed6ede58, type: 3}
+  - {fileID: 8300000, guid: a8976e587e5a04394a76c4a7569e557d, type: 3}
+  - {fileID: 8300000, guid: a8976e587e5a04394a76c4a7569e557d, type: 3}
 --- !u!82 &1099861978960025974
 AudioSource:
   m_ObjectHideFlags: 0

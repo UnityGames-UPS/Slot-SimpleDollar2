@@ -46,6 +46,24 @@ public class AudioController : MonoBehaviour
             case "start":
                 index = 7;
                 break;
+            case "yellow":
+                index = 8;
+                break;
+            case "cards":
+                index = 10;
+                break;
+            case "card":
+                index = 9;
+                break;
+            case "bonusStart":
+                index = 11;
+                break;
+            case "tryagain":
+                index = 12;
+                break;
+            case "yellowbonus":
+                index = 13;
+                break;
             case "spin":
                 index = 4;
                 audioPlayer_wl.loop = true;
