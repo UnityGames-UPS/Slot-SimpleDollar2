@@ -1255,7 +1255,7 @@ public class UIManager : MonoBehaviour
         MoveDuration
     ).SetEase(Ease.OutQuart);
 
-    scaleTween = MainSlotParent.transform.DOScale(1.15f, ScaleDuration);
+    scaleTween = MainSlotParent.transform.DOScale(1f, ScaleDuration);
     bonusBlocker.SetActive(false);
   }
 
