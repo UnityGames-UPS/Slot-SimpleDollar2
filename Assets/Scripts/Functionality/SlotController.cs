@@ -212,7 +212,10 @@ public class SlotController : MonoBehaviour
       if (uiController) uiController.StopAutoSpin();
     }
   }
-
+  private void OnApplicationFocus(bool focus)
+  {
+    audioController.CheckFocusFunction(focus, true);
+  }
 
   #endregion
 
@@ -720,7 +723,7 @@ public class SlotController : MonoBehaviour
       count = 0;
       trys = 5;
     }
-    uiController.BonusButtonToggle(true);
+
     uiController.setallBonusfalse(); // reset all highlights first
     count++;
     string ps = count + " OF 5 OFFER";
@@ -767,6 +770,10 @@ public class SlotController : MonoBehaviour
     {
       StartCoroutine(LastBonus());
     }
+    else
+    {
+      uiController.BonusButtonToggle(true);
+    }
   }
   internal void StretchText(string value)
   {
@@ -795,7 +802,7 @@ public class SlotController : MonoBehaviour
 
   IEnumerator BonusEnd()
   {
-    Debug.Log("Bonus Winnings" + socketManager.BonusData.payload.winAmount);
+    Debug.Log("Bonus Winnings-----" + socketManager.BonusData.payload.winAmount);
     yield return uiController.UpdateWinnings(socketManager.PlayerData.balance, socketManager.BonusData.payload.winAmount, 3);
     isBonusdone = true;
     double totalwin = socketManager.ResultData.payload.winAmount + socketManager.BonusData.payload.winAmount;

@@ -1083,8 +1083,7 @@ public class UIManager : MonoBehaviour
   WinMain_Text.text = winning.ToString("F2");
   isComplete = true;
 });
-
-    if (winning >= (slotManager.CurrentBet * 5))
+    if (which == 3)
     {
       ToggleWinPopup(true, winning, which);
       if (audioController) audioController.PlayWLAudio("bigwin");
@@ -1098,6 +1097,24 @@ public class UIManager : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.3f);
       }
       ToggleWinPopup(false);
+    }
+    else
+    {
+      if (winning >= (slotManager.CurrentBet * 5))
+      {
+        ToggleWinPopup(true, winning, which);
+        if (audioController) audioController.PlayWLAudio("bigwin");
+        SkipWin = false;
+        for (int i = 0; i < 20; i++)
+        {
+          if (SkipWin)
+          {
+            break;
+          }
+          yield return new WaitForSecondsRealtime(0.3f);
+        }
+        ToggleWinPopup(false);
+      }
     }
 
     yield return new WaitUntil(() => isComplete);
@@ -1334,6 +1351,7 @@ public class UIManager : MonoBehaviour
   }
   void OnTryagainClicked()
   {
+    Debug.Log("----------tryagainclicked");
     if (audioController) audioController.PlayWLAudio("tryagain");
     // audioController.PlayButtonAudio();
     socketManager.AccumulateBonus("REJECT");
