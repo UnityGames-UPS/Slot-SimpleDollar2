@@ -613,7 +613,7 @@ public class SlotController : MonoBehaviour
     alltweens[index].Kill();
 
     slotTransform.localPosition = new Vector3(slotTransform.localPosition.x, 0f, slotTransform.localPosition.z);
-    Tweener t = slotTransform.DOLocalMoveY(-1108 - 200, 0.3f);
+    Tweener t = slotTransform.DOLocalMoveY(-1108 - 200 - 20, 0.3f);
     alltweens[index] = t;
 
     if (!StopSpinToggle)

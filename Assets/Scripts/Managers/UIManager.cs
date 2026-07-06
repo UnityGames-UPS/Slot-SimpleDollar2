@@ -826,31 +826,31 @@ public class UIManager : MonoBehaviour
       if (which == 0)
       {
         SimpleWinPopup.SetActive(true);
-        simpleWinText.SetNumber(amount);
+        simpleWinText.AnimateFromZero(amount);
         AnimateWinText(simpleWinText.transform, 0.5f, 0.3f, 1.5f, 0.2f);
       }
       else if (which == 1)
       {
         BigWinPopup.SetActive(true);
-        BigWinText.SetNumber(amount);
+        BigWinText.AnimateFromZero(amount);
         AnimateWinText(BigWinText.transform, 2.5f, 0.5f, 2f, 0.2f);
       }
       else if (which == 2)
       {
         SuperWinPopup.SetActive(true);
-        SuperWinText.SetNumber(amount);
+        SuperWinText.AnimateFromZero(amount);
         AnimateWinText(SuperWinText.transform, 0.5f, 0.3f, 1.7f, 0.2f);
       }
       else if (which == 3)
       {
         BonusWinPopup.SetActive(true);
-        BonusWinText.SetNumber(amount);
+        BonusWinText.AnimateFromZero(amount);
         AnimateWinText(BonusWinText.transform, 0.5f, 0.3f, 2f, 0.2f);
       }
       else if (which == 4)
       {
         MiniJackpotPopup.SetActive(true);
-        MiniJackpotText.SetNumber(amount);
+        MiniJackpotText.AnimateFromZero(amount);
         AnimateWinText(MiniJackpotText.transform, 0.5f, 0.3f, 2f, 0.2f);
       }
 
