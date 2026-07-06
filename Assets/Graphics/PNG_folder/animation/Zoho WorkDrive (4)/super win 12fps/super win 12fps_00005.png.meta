@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 0a1f05771e7b04d10a7a0d7d4da578d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2578849488375929540
+    second: super win 12fps_00005_0
+  - first:
+      213: 3440080905989308137
+    second: super win 12fps_00005_1
+  - first:
+      213: -1272720169642564604
+    second: super win 12fps_00005_2
+  - first:
+      213: 7102919638135545131
+    second: super win 12fps_00005_3
+  - first:
+      213: -7160430579171835249
+    second: super win 12fps_00005_4
+  - first:
+      213: 5870225422162891876
+    second: super win 12fps_00005_5
+  - first:
+      213: -4725334824464530763
+    second: super win 12fps_00005_6
+  - first:
+      213: -9113668739931606827
+    second: super win 12fps_00005_7
+  - first:
+      213: 57989836710153817
+    second: super win 12fps_00005_8
+  - first:
+      213: 6881459588011718093
+    second: super win 12fps_00005_9
+  - first:
+      213: 7590643368465025053
+    second: super win 12fps_00005_10
+  - first:
+      213: -9132028619112807598
+    second: super win 12fps_00005_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: super win 12fps_00005_0
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1257
+        width: 182
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35a72cbd06163cd0800000000000000
+      internalID: -2578849488375929540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super win 12fps_00005_1
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1417
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eeb8109b5f9dbf20800000000000000
+      internalID: 3440080905989308137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super win 12fps_00005_2
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1277
+        width: 181
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404eaf5bfb3665ee0800000000000000
+      internalID: -1272720169642564604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super win 12fps_00005_3
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 940
+        width: 129
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d173b27c3a29260800000000000000
+      internalID: 7102919638135545131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super win 12fps_00005_4
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 821
+        width: 849
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f824e99635a01ac90800000000000000
+      internalID: -7160430579171835249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super win 12fps_00005_5
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 1025
+        width: 104
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4649c7f6bea377150800000000000000
+      internalID: 5870225422162891876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super win 12fps_00005_6
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 374
+        width: 160
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b24207530d3c6eb0800000000000000
+      internalID: -4725334824464530763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super win 12fps_00005_7
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 576
+        width: 241
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d07bcb319eb58180800000000000000
+      internalID: -9113668739931606827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super win 12fps_00005_8
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 635
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e01b103750ec000800000000000000
+      internalID: 57989836710153817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super win 12fps_00005_9
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 374
+        width: 160
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5f4a7290bdf7f50800000000000000
+      internalID: 6881459588011718093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super win 12fps_00005_10
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 227
+        width: 128
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18480a3de1675960800000000000000
+      internalID: 7590643368465025053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super win 12fps_00005_11
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 227
+        width: 128
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253841fba54844180800000000000000
+      internalID: -9132028619112807598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      super win 12fps_00005_0: -2578849488375929540
+      super win 12fps_00005_1: 3440080905989308137
+      super win 12fps_00005_10: 7590643368465025053
+      super win 12fps_00005_11: -9132028619112807598
+      super win 12fps_00005_2: -1272720169642564604
+      super win 12fps_00005_3: 7102919638135545131
+      super win 12fps_00005_4: -7160430579171835249
+      super win 12fps_00005_5: 5870225422162891876
+      super win 12fps_00005_6: -4725334824464530763
+      super win 12fps_00005_7: -9113668739931606827
+      super win 12fps_00005_8: 57989836710153817
+      super win 12fps_00005_9: 6881459588011718093
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
