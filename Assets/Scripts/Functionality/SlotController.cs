@@ -322,7 +322,7 @@ public class SlotController : MonoBehaviour
       {
         Debug.Log($"Win Amount: {socketManager.ResultData.payload.winAmount}");
         uiController.ToggleWinPopup(true, System.Math.Round(socketManager.ResultData.payload.winAmount, 2), 0);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         yield return uiController.UpdateWinnings(socketManager.PlayerData.balance, socketManager.ResultData.payload.winAmount);
         uiController.ToggleWinPopup(false);
         // StartCoroutine(uiController.UpdateWinnings(socketManager.PlayerData.balance, socketManager.ResultData.payload.winAmount));
@@ -336,7 +336,7 @@ public class SlotController : MonoBehaviour
     if (socketManager.ResultData.payload.isJackpot)
     {
       uiController.ToggleWinPopup(true, System.Math.Round(socketManager.ResultData.payload.winAmount, 4), 0);
-      yield return new WaitForSeconds(1f);
+      yield return new WaitForSeconds(2f);
       yield return uiController.UpdateWinnings(socketManager.PlayerData.balance, socketManager.ResultData.payload.winAmount);
       uiController.ToggleWinPopup(false);
     }

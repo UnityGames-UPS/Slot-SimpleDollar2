@@ -9,7 +9,7 @@ public class SpriteNumberText : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textUI;
 
     [Header("Animation")]
-    [SerializeField] private double animationDuration = 1.5;
+    [SerializeField] private double animationDuration = 0.5f;
     [SerializeField] private AnimationCurve animationCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
 
     private Coroutine animCoroutine;
