@@ -214,7 +214,7 @@ public class SlotController : MonoBehaviour
   }
   internal void OnApplicationFocus(bool focus)
   {
-    audioController.CheckFocusFunction(focus, uiController.isMute);
+    audioController.CheckFocusFunction(focus, uiController.isMute, uiController.isBgMute);
   }
 
   #endregion

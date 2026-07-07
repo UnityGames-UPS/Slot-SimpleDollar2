@@ -260,7 +260,8 @@ public class UIManager : MonoBehaviour
   private bool SkipWin;
   private bool isExit = false;
 
-  internal bool isMute = false;
+  internal bool isMute = true;
+  internal bool isBgMute = true;
   void Awake()
   {
     if (jsFunctCalls != null)
@@ -1431,20 +1432,20 @@ public class UIManager : MonoBehaviour
   private void ToggleSoundSetting()
   {
     audioController.PlayButtonAudio();
-    bool isOn = SoundON.activeSelf;
-    SoundON.SetActive(!isOn);
-    SoundOFF.SetActive(isOn);
-    audioController.ToggleMute(isOn, "wl"); // mute when turning off
-    audioController.ToggleMute(isOn, "button"); // mute when turning off
+    isMute = SoundON.activeSelf;
+    SoundON.SetActive(!isMute);
+    SoundOFF.SetActive(isMute);
+    audioController.ToggleMute(isMute, "wl"); // mute when turning off
+    audioController.ToggleMute(isMute, "button"); // mute when turning off
   }
 
   private void ToggleMusicSetting()
   {
     audioController.PlayButtonAudio();
-    bool isOn = MusicON.activeSelf;
-    MusicON.SetActive(!isOn);
-    MusicOFF.SetActive(isOn);
-    audioController.ToggleMute(isOn, "bg"); // mute when turning off
+    isBgMute = MusicON.activeSelf;
+    MusicON.SetActive(!isBgMute);
+    MusicOFF.SetActive(isBgMute);
+    audioController.ToggleMute(isBgMute, "bg"); // mute when turning off
   }
   private void OpenSoundPanel()
   {

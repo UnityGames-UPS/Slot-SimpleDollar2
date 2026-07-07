@@ -109,6 +109,12 @@ public class AudioController : MonoBehaviour
             case "wl":
                 audioPlayer_wl.mute = toggle;
                 break;
+            case "sounds":
+                audioPlayer_wl.mute = toggle;
+                // bg_adudio.mute = toggle;
+                audioPlayer_button.mute = toggle;
+                audioSpin_button.mute = toggle;
+                break;
             case "all":
                 audioPlayer_wl.mute = toggle;
                 bg_adudio.mute = toggle;
@@ -117,26 +123,31 @@ public class AudioController : MonoBehaviour
                 break;
         }
     }
-    internal void CheckFocusFunction(bool focus, bool IsSpinning)
+    internal void CheckFocusFunction(bool focus, bool isMute, bool isBgMute)
     {
         if (!focus)
         {
-            bg_adudio.Pause();
-            audioPlayer_wl.Pause();
-            audioPlayer_button.Pause();
+            ToggleMute(false);
         }
         else
         {
-            if (!bg_adudio.mute) bg_adudio.UnPause();
-            if (IsSpinning)
+
+            if (isMute)
             {
-                if (!audioPlayer_wl.mute) audioPlayer_wl.UnPause();
+                ToggleMute(false, "sounds");
             }
             else
             {
-                StopWLAaudio();
+                ToggleMute(true, "sounds");
             }
-            if (!audioPlayer_button.mute) audioPlayer_button.UnPause();
+            if (isBgMute)
+            {
+                ToggleMute(false, "bg");
+            }
+            else
+            {
+                ToggleMute(true, "bg");
+            }
 
         }
     }
