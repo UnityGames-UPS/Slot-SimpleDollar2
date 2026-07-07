@@ -127,28 +127,14 @@ public class AudioController : MonoBehaviour
     {
         if (!focus)
         {
-            ToggleMute(false);
+            // App lost focus - mute everything temporarily
+            ToggleMute(true);
         }
         else
         {
-
-            if (isMute)
-            {
-                ToggleMute(false, "sounds");
-            }
-            else
-            {
-                ToggleMute(true, "sounds");
-            }
-            if (isBgMute)
-            {
-                ToggleMute(false, "bg");
-            }
-            else
-            {
-                ToggleMute(true, "bg");
-            }
-
+            // App regained focus - respect user's manual mute choices
+            ToggleMute(isMute, "sounds");   // if user muted sounds, stays muted (true), else unmuted (false)
+            ToggleMute(isBgMute, "bg");     // same logic for bg
         }
     }
 

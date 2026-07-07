@@ -260,8 +260,8 @@ public class UIManager : MonoBehaviour
   private bool SkipWin;
   private bool isExit = false;
 
-  internal bool isMute = true;
-  internal bool isBgMute = true;
+  internal bool isMute = false;
+  internal bool isBgMute = false;
   void Awake()
   {
     if (jsFunctCalls != null)
@@ -1471,6 +1471,10 @@ public class UIManager : MonoBehaviour
 
 
 
+  }
+  void OnApplicationFocus(bool focus)
+  {
+    OnFocusChanged(focus ? "1" : "0");
   }
   public void OnFocusChanged(string value)
   {

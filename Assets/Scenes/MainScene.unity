@@ -27426,7 +27426,7 @@ MonoBehaviour:
   PopupMain_Object: {fileID: 1643718612}
   slotManager: {fileID: 2046803210}
   audioController: {fileID: 1030743558465206379}
-  jsFunctCalls: {fileID: 0}
+  jsFunctCalls: {fileID: 97085823}
   lInfo1:
   - {fileID: 1904706869}
   - {fileID: 661695796}
