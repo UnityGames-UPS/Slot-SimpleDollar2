@@ -212,9 +212,9 @@ public class SlotController : MonoBehaviour
       if (uiController) uiController.StopAutoSpin();
     }
   }
-  private void OnApplicationFocus(bool focus)
+  internal void OnApplicationFocus(bool focus)
   {
-    audioController.CheckFocusFunction(focus, true);
+    audioController.CheckFocusFunction(focus, uiController.isMute);
   }
 
   #endregion

@@ -201,6 +201,7 @@ public class UIManager : MonoBehaviour
   private SlotController slotManager;
   [SerializeField]
   private AudioController audioController;
+  [SerializeField] private JSFunctCalls jsFunctCalls;
   [Header("Info images")]
 
   [SerializeField] private List<Image> lInfo1;
@@ -259,10 +260,12 @@ public class UIManager : MonoBehaviour
   private bool SkipWin;
   private bool isExit = false;
 
-  // void Awake()
-  // {
-  //   MoveToBonus();
-  // }
+  internal bool isMute = false;
+  void Awake()
+  {
+    if (jsFunctCalls != null)
+      jsFunctCalls.RegisterVisibilityListener(gameObject.name);
+  }
   private void Start()
   {
     isAtOpen = false;
@@ -741,6 +744,7 @@ public class UIManager : MonoBehaviour
 
   private void ToggleSound(bool isActive)
   {
+    isMute = isActive;
     if (isActive)
     {
       if (Mute_Object) Mute_Object.SetActive(true);
@@ -1467,7 +1471,13 @@ public class UIManager : MonoBehaviour
 
 
   }
-
+  public void OnFocusChanged(string value)
+  {
+    bool focused = value == "1";
+    Debug.Log("UNITY FOCUS CHANGED: " + value + " (focused: " + focused + ")");
+    slotManager.OnApplicationFocus(focused);
+    // socketController?.HandleFocusChange(focused);
+  }
   // private IEnumerator WaitForAnimComplete(ImageAnimation anim, System.Action onComplete)
   // {
   //   yield return new WaitUntil(() => anim.currentAnimationState == ImageAnimation.ImageState.NONE);
