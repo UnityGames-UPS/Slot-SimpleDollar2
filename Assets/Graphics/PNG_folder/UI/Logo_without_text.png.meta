@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 67f38254a3f0d4ce3a0fb6b1662cc8dc
+guid: e1bbc50eeb1914258845e066e02bdb57
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7172063003894261852
-    second: simple doller ii_00069_0
+      213: -1416405685838031545
+    second: Logo_without_text_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: simple doller ii_00069_0
+      name: Logo_without_text_0
       rect:
         serializedVersion: 2
-        x: 389
-        y: 25
-        width: 1141
-        height: 804
+        x: 0
+        y: 0
+        width: 624
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c58a6d58d49488360800000000000000
-      internalID: 7172063003894261852
+      spriteID: 745d7cd788ae75ce0800000000000000
+      internalID: -1416405685838031545
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      simple doller ii_00069_0: 7172063003894261852
+      Logo_without_text_0: -1416405685838031545
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

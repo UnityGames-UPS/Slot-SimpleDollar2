@@ -1,9 +1,11 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class ImageAnimation : MonoBehaviour
 {
+	public UnityEvent OnAnimationComplete;
 	public enum ImageState
 	{
 		NONE,
@@ -46,17 +48,17 @@ public class ImageAnimation : MonoBehaviour
 		}
 	}
 
-    private void Start()
-    {
+	private void Start()
+	{
 		OriginalSprite = rendererDelegate.sprite;
 	}
 
-    private void OnEnable()
+	private void OnEnable()
 	{
-		if(StartOnAwake)
-        {
+		if (StartOnAwake)
+		{
 			StartAnimation();
-        }
+		}
 	}
 
 	private void OnDisable()
@@ -76,10 +78,15 @@ public class ImageAnimation : MonoBehaviour
 			{
 				Invoke("AnimationProcess", delayBetweenAnimation + delayBetweenLoop);
 			}
+			else
+			{
+				OnAnimationComplete?.Invoke();
+			}
 		}
 		else
 		{
 			Invoke("AnimationProcess", delayBetweenAnimation);
+
 		}
 	}
 
