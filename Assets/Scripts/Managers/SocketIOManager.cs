@@ -636,6 +636,9 @@ public class Payload
   public bool isBonusFeatureActive { get; set; }
   public BonusData bonusData { get; set; }
   public bool lockActive { get; set; }
+  public int megaWin { get; set; }
+  public int majorWin { get; set; }
+  public int minorWin { get; set; }
 }
 
 

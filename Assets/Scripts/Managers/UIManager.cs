@@ -155,11 +155,13 @@ public class UIManager : MonoBehaviour
   [SerializeField] private GameObject BigWinPopup;
   [SerializeField] private GameObject BonusWinPopup;
   [SerializeField] private GameObject MiniJackpotPopup;
+  [SerializeField] private GameObject JackpotPopup;
   [SerializeField] private SpriteNumberText simpleWinText;
   [SerializeField] private SpriteNumberText SuperWinText;
   [SerializeField] private SpriteNumberText BigWinText;
   [SerializeField] private SpriteNumberText BonusWinText;
   [SerializeField] private SpriteNumberText MiniJackpotText;
+  [SerializeField] private SpriteNumberText JackpotText;
 
   [Header("Exit Popup")]
   [SerializeField]
@@ -210,7 +212,7 @@ public class UIManager : MonoBehaviour
   [SerializeField] private List<Image> RInfo1;
 
   [Header("Bonus Games")]
-  [SerializeField] private GameObject MainSlotParent;
+  [SerializeField] internal GameObject MainSlotParent;
   [SerializeField] private Transform Slotposition;
   [SerializeField] private Transform Bonusposition;
   [SerializeField] internal List<BonusDollar> bonusPrefabs;
@@ -252,6 +254,9 @@ public class UIManager : MonoBehaviour
   [SerializeField] internal ImageAnimation IntroAnimations;
   [SerializeField] internal GameObject bonusBlocker;
   [SerializeField] internal ImageAnimation FullSlotAnim;
+  [SerializeField] internal SpineAnimController jackpotAnims;
+  [SerializeField] internal GameObject grids;
+  [SerializeField] internal Image BgImg;
   private int SpinCount = 0;
   private int currentBet = 10;
   private bool isAtOpen = false;
@@ -439,14 +444,47 @@ public class UIManager : MonoBehaviour
 
     StartCoroutine(InfoFadeLoop());
   }
+  // IEnumerator PlayintroAnimation()
+  // {
+  //   PlaySquashSettle(MainSlotParent.transform);
+  //   if (audioController) audioController.PlayWLAudio("start");
+  //   yield return new WaitForSeconds(3f);
+  //   IntroAnimations.StopAnimation();
+  //   MoveToSlot();
+  //   PlayGlow();
+  //   slotManager.forthslot.PlayFlip(2, audioController.StopWLAaudio);
+  //   yield return new WaitForSeconds(1f);
+  //   IntroAnimations.gameObject.SetActive(false);
+  //   grids.SetActive(true);
+  // }
   IEnumerator PlayintroAnimation()
   {
+    ToggleButtonGrp(false); // disable buttons during intro
+
+    PlaySquashSettle(MainSlotParent.transform);
     if (audioController) audioController.PlayWLAudio("start");
-    yield return new WaitForSeconds(5f);
+    yield return new WaitForSeconds(3f);
     IntroAnimations.StopAnimation();
     MoveToSlot();
-    yield return new WaitForSeconds(2f);
+    PlayGlow();
+
+    // Play all border animations
+    foreach (var border in slotManager.BorderAnimations)
+    {
+      if (border) border.StartAnimation();
+    }
+
+    slotManager.forthslot.PlayFlip(1, audioController.StopWLAaudio);
+    yield return new WaitForSeconds(1.5f);
     IntroAnimations.gameObject.SetActive(false);
+    grids.SetActive(true);
+
+    ToggleButtonGrp(true); // re-enable buttons once intro finishes
+    slotManager.forthslot.SetNormal();
+    foreach (var border in slotManager.BorderAnimations)
+    {
+      if (border) border.StopAnimation();
+    }
   }
   internal void PopulateSymbolsPayout(Paylines paylines)
   {
@@ -867,6 +905,8 @@ public class UIManager : MonoBehaviour
       SuperWinPopup.SetActive(isActive);
       BonusWinPopup.SetActive(isActive);
       MiniJackpotPopup.SetActive(isActive);
+      JackpotPopup.SetActive(isActive);
+      ScaleToNormal(MainSlotParent.transform);
     }
   }
   private void AnimateWinText(
@@ -1125,7 +1165,30 @@ public class UIManager : MonoBehaviour
     yield return new WaitUntil(() => isComplete);
     yield return new WaitForSeconds(0.5f);
   }
+  internal void playJackpotAnimation(string type, double amount)
+  {
+    jackpotAnims.Stop();
 
+    if (type == "major")
+    {
+      jackpotAnims.SetSkeletonData("major_jackpot_anim");
+    }
+    else if (type == "mega")
+    {
+      jackpotAnims.SetSkeletonData("mega_jackpot_anim2");
+
+    }
+    else
+    {
+      jackpotAnims.SetSkeletonData("minor_jackpot_anim");
+
+    }
+    NiceWinPopup.SetActive(true);
+    JackpotPopup.SetActive(true);
+    JackpotText.AnimateFromZero(amount);
+    AnimateWinText(JackpotText.transform, 2f, 2f, 6f, 0.2f);
+    jackpotAnims.Play(false);
+  }
   internal void UpdateTweenBalance(double bet)
   {
     double prevBalance = double.Parse(BalanceMain_Text.text);
@@ -1234,38 +1297,7 @@ public class UIManager : MonoBehaviour
 
   private Tween moveTween;
   private Tween scaleTween;
-  // internal void MoveToBonus()
-  // {
-  //   if (audioController) audioController.PlayWLAudio("bonus");
-  //   moveTween?.Kill();
-  //   scaleTween?.Kill();
 
-  //   moveTween = MainSlotParent.transform.DOMove(
-  //       Bonusposition.position,
-  //       MoveDuration
-  //   ).SetEase(Ease.OutQuart);
-
-  //   // Scale Up
-  //   scaleTween = MainSlotParent.transform
-  //       .DOScale(1.15f, ScaleDuration);
-
-  // }
-
-  // internal void MoveToSlot()
-  // {
-  //   moveTween?.Kill();
-  //   scaleTween?.Kill();
-
-  //   moveTween = MainSlotParent.transform.DOMove(
-  //       Slotposition.position,
-  //       MoveDuration
-  //   ).SetEase(Ease.OutQuart);
-
-  //   // Back To Normal Scale
-  //   scaleTween = MainSlotParent.transform
-  //       .DOScale(1f, ScaleDuration);
-
-  // }
   internal void MoveToBonus()
   {
     if (audioController) audioController.PlayWLAudio("bonus");
@@ -1294,7 +1326,36 @@ public class UIManager : MonoBehaviour
     scaleTween = MainSlotParent.transform.DOScale(1f, ScaleDuration);
     bonusBlocker.SetActive(true);
   }
+  internal void PlaySquashSettle(Transform target, float waitTime = 0.3f, System.Action onComplete = null)
+  {
+    target.DOKill();
 
+    Vector3 originalScale = target.localScale;
+    Vector3 originalPos = target.localPosition;
+
+    Sequence seq = DOTween.Sequence();
+
+    // Scale down and move down together
+    seq.Append(target.DOScale(originalScale * 0.87f, 3f).SetEase(Ease.OutQuad));
+    seq.Join(target.DOLocalMoveY(originalPos.y - 20f, 3f).SetEase(Ease.OutQuad));
+
+    // Hold
+    seq.AppendInterval(waitTime);
+
+    // Move back up and scale back to normal
+    // seq.Append(target.DOScale(originalScale, 0.2f).SetEase(Ease.OutQuad));
+    // seq.Join(target.DOLocalMoveY(originalPos.y, 0.2f).SetEase(Ease.OutQuad));
+
+    seq.OnComplete(() => onComplete?.Invoke());
+  }
+  internal void ScaleToNormal(Transform target, float duration = 0.3f, System.Action onComplete = null)
+  {
+    scaleTween?.Kill();
+
+    scaleTween = target.DOScale(1f, duration)
+        .SetEase(Ease.OutQuad)
+        .OnComplete(() => onComplete?.Invoke());
+  }
   internal void ScaleEffect()
   {
     scaleTween?.Kill();
@@ -1321,7 +1382,14 @@ public class UIManager : MonoBehaviour
   }
 
 
+  internal void SlowScaleStop(Transform target, float targetScale = 1.2f, float duration = 2f, System.Action onComplete = null)
+  {
+    scaleTween?.Kill();
 
+    scaleTween = target.DOScale(targetScale, duration)
+        .SetEase(Ease.InOutSine)
+        .OnComplete(() => onComplete?.Invoke());
+  }
   internal void SetBonusInit(double major, double mini, double minor, double betamount = 1)
   {
     // for (int i = 0; i < val.Count - 3; i++)
@@ -1488,4 +1556,26 @@ public class UIManager : MonoBehaviour
   //   yield return new WaitUntil(() => anim.currentAnimationState == ImageAnimation.ImageState.NONE);
   //   onComplete?.Invoke();
   // }
+
+  private readonly Color baseColor = new Color32(0xA6, 0xA6, 0xA6, 0xFF);
+  private readonly Color glowColor = Color.white;
+
+  private Tween glowTween;
+
+  public void PlayGlow(int loops = -1, float duration = 0.5f)
+  {
+    // make sure we start from base color
+    BgImg.color = baseColor;
+
+    glowTween?.Kill();
+    glowTween = BgImg.DOColor(glowColor, duration)
+        .SetLoops(loops, LoopType.Yoyo)   // -1 = infinite yoyo glow
+        .SetEase(Ease.InOutSine)
+        .OnKill(() => BgImg.color = baseColor); // always reset when stopped
+  }
+
+  public void StopGlow()
+  {
+    glowTween?.Kill(); // triggers OnKill -> resets to base color
+  }
 }

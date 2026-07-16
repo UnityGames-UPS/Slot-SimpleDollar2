@@ -1,0 +1,5382 @@
+fileFormatVersion: 2
+guid: 64740751f7705431db646aecd6540a82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3861048725065843453
+    second: jackpot_6_0
+  - first:
+      213: 1412914949358709530
+    second: jackpot_6_1
+  - first:
+      213: 7347444451571467625
+    second: jackpot_6_2
+  - first:
+      213: -3041572610717567436
+    second: jackpot_6_3
+  - first:
+      213: -4644832721900896677
+    second: jackpot_6_4
+  - first:
+      213: -8541392372148896915
+    second: jackpot_6_5
+  - first:
+      213: -1155108434702275063
+    second: jackpot_6_6
+  - first:
+      213: 4675580716897479675
+    second: jackpot_6_7
+  - first:
+      213: 6280370395567698760
+    second: jackpot_6_8
+  - first:
+      213: 7241976544898676728
+    second: jackpot_6_9
+  - first:
+      213: -4845942679039016757
+    second: jackpot_6_10
+  - first:
+      213: 5755305087865966515
+    second: jackpot_6_11
+  - first:
+      213: 7617432384578136344
+    second: jackpot_6_12
+  - first:
+      213: -8226168363527982654
+    second: jackpot_6_13
+  - first:
+      213: 3432987678838303902
+    second: jackpot_6_14
+  - first:
+      213: -8432590366576276031
+    second: jackpot_6_15
+  - first:
+      213: 9171575999022727314
+    second: jackpot_6_16
+  - first:
+      213: -6098681596488574259
+    second: jackpot_6_17
+  - first:
+      213: -1341407223984671276
+    second: jackpot_6_18
+  - first:
+      213: -1838592714096490759
+    second: jackpot_6_19
+  - first:
+      213: -8952375107122904957
+    second: jackpot_6_20
+  - first:
+      213: 4850574304409834609
+    second: jackpot_6_21
+  - first:
+      213: -5782097443492126797
+    second: jackpot_6_22
+  - first:
+      213: -1829542897203797696
+    second: jackpot_6_23
+  - first:
+      213: -3626739990837438538
+    second: jackpot_6_24
+  - first:
+      213: 7935620960835391372
+    second: jackpot_6_25
+  - first:
+      213: 4042945504099956805
+    second: jackpot_6_26
+  - first:
+      213: 139008222701036110
+    second: jackpot_6_27
+  - first:
+      213: -5622130822168500525
+    second: jackpot_6_28
+  - first:
+      213: 6735948947441901169
+    second: jackpot_6_29
+  - first:
+      213: 2095524535106890425
+    second: jackpot_6_30
+  - first:
+      213: -1047935527220905905
+    second: jackpot_6_31
+  - first:
+      213: -3674784229933075030
+    second: jackpot_6_32
+  - first:
+      213: 6938609679413199478
+    second: jackpot_6_33
+  - first:
+      213: -2479045593167335223
+    second: jackpot_6_34
+  - first:
+      213: -2593176967717346092
+    second: jackpot_6_35
+  - first:
+      213: -1590504499134307075
+    second: jackpot_6_36
+  - first:
+      213: -4597326712880388623
+    second: jackpot_6_37
+  - first:
+      213: 1807133342763676440
+    second: jackpot_6_38
+  - first:
+      213: 6974974092945765943
+    second: jackpot_6_39
+  - first:
+      213: 8237610133918400717
+    second: jackpot_6_40
+  - first:
+      213: -5043701146544078259
+    second: jackpot_6_41
+  - first:
+      213: -947366054720796936
+    second: jackpot_6_42
+  - first:
+      213: 5388702769575818880
+    second: jackpot_6_43
+  - first:
+      213: -5593633130679835385
+    second: jackpot_6_44
+  - first:
+      213: 562024993098484167
+    second: jackpot_6_45
+  - first:
+      213: -4532206374151585441
+    second: jackpot_6_46
+  - first:
+      213: 7180987295104935939
+    second: jackpot_6_47
+  - first:
+      213: -6733571481547881299
+    second: jackpot_6_48
+  - first:
+      213: 669758785191502704
+    second: jackpot_6_49
+  - first:
+      213: 752139546423995389
+    second: jackpot_6_50
+  - first:
+      213: 2193308143348199351
+    second: jackpot_6_51
+  - first:
+      213: 5884188256426634920
+    second: jackpot_6_52
+  - first:
+      213: -1850816195460119137
+    second: jackpot_6_53
+  - first:
+      213: -5948009395506959174
+    second: jackpot_6_54
+  - first:
+      213: -7909154197137554963
+    second: jackpot_6_55
+  - first:
+      213: -5611069272186055944
+    second: jackpot_6_56
+  - first:
+      213: 8875068377335089700
+    second: jackpot_6_57
+  - first:
+      213: -1862077460533620479
+    second: jackpot_6_58
+  - first:
+      213: -7740357467213180485
+    second: jackpot_6_59
+  - first:
+      213: -6581684932910903441
+    second: jackpot_6_60
+  - first:
+      213: 7946822958129333215
+    second: jackpot_6_61
+  - first:
+      213: -1714448195185896085
+    second: jackpot_6_62
+  - first:
+      213: -6627934881701755622
+    second: jackpot_6_63
+  - first:
+      213: -6678141809208884430
+    second: jackpot_6_64
+  - first:
+      213: -5354909372082232849
+    second: jackpot_6_65
+  - first:
+      213: 4439065484579554440
+    second: jackpot_6_66
+  - first:
+      213: -9102740935512689488
+    second: jackpot_6_67
+  - first:
+      213: -1625552250536840613
+    second: jackpot_6_68
+  - first:
+      213: 7987648152913195529
+    second: jackpot_6_69
+  - first:
+      213: 5900193063284645304
+    second: jackpot_6_70
+  - first:
+      213: 5959463922271478978
+    second: jackpot_6_71
+  - first:
+      213: -2035520037306326030
+    second: jackpot_6_72
+  - first:
+      213: -6690713250207018495
+    second: jackpot_6_73
+  - first:
+      213: -5156466899880110070
+    second: jackpot_6_74
+  - first:
+      213: -2531199497230225657
+    second: jackpot_6_75
+  - first:
+      213: -3986030320304904060
+    second: jackpot_6_76
+  - first:
+      213: 9215899407854828951
+    second: jackpot_6_77
+  - first:
+      213: -4320303677413589723
+    second: jackpot_6_78
+  - first:
+      213: -1275620930596301400
+    second: jackpot_6_79
+  - first:
+      213: 6796428560781906263
+    second: jackpot_6_80
+  - first:
+      213: 249659779293432822
+    second: jackpot_6_81
+  - first:
+      213: 3659201909197702728
+    second: jackpot_6_82
+  - first:
+      213: 3394555317938358310
+    second: jackpot_6_83
+  - first:
+      213: -5975020527920696250
+    second: jackpot_6_84
+  - first:
+      213: 426501576575412768
+    second: jackpot_6_85
+  - first:
+      213: 5577689469113145606
+    second: jackpot_6_86
+  - first:
+      213: 4933023163240601203
+    second: jackpot_6_87
+  - first:
+      213: 6151171634828577550
+    second: jackpot_6_88
+  - first:
+      213: 998873469085324901
+    second: jackpot_6_89
+  - first:
+      213: -5079380951817944625
+    second: jackpot_6_90
+  - first:
+      213: -979408247692938580
+    second: jackpot_6_91
+  - first:
+      213: -5610568630323463207
+    second: jackpot_6_92
+  - first:
+      213: 1595938074083754255
+    second: jackpot_6_93
+  - first:
+      213: -125349082117236613
+    second: jackpot_6_94
+  - first:
+      213: 1292384519588756632
+    second: jackpot_6_95
+  - first:
+      213: -5914351376228136566
+    second: jackpot_6_96
+  - first:
+      213: 6028828910999785262
+    second: jackpot_6_97
+  - first:
+      213: 6642794012037962143
+    second: jackpot_6_98
+  - first:
+      213: 2490463786816765235
+    second: jackpot_6_99
+  - first:
+      213: -5444701215986990065
+    second: jackpot_6_100
+  - first:
+      213: 675795879329914649
+    second: jackpot_6_101
+  - first:
+      213: -4519150917407635100
+    second: jackpot_6_102
+  - first:
+      213: -2375343103391039885
+    second: jackpot_6_103
+  - first:
+      213: 7994377346823698027
+    second: jackpot_6_104
+  - first:
+      213: 2533108646046169187
+    second: jackpot_6_105
+  - first:
+      213: -3810889220916384871
+    second: jackpot_6_106
+  - first:
+      213: -8720155628764472927
+    second: jackpot_6_107
+  - first:
+      213: 2288357357661863890
+    second: jackpot_6_108
+  - first:
+      213: 3897389643476999707
+    second: jackpot_6_109
+  - first:
+      213: 8332774444484967196
+    second: jackpot_6_110
+  - first:
+      213: -7726079799805908538
+    second: jackpot_6_111
+  - first:
+      213: 7785037238472206789
+    second: jackpot_6_112
+  - first:
+      213: 2745663612812116603
+    second: jackpot_6_113
+  - first:
+      213: -2183099755608423540
+    second: jackpot_6_114
+  - first:
+      213: -766044488353211277
+    second: jackpot_6_115
+  - first:
+      213: -8876463116620422
+    second: jackpot_6_116
+  - first:
+      213: 4552444025906509572
+    second: jackpot_6_117
+  - first:
+      213: -1597578518729437185
+    second: jackpot_6_118
+  - first:
+      213: 5128282188752065381
+    second: jackpot_6_119
+  - first:
+      213: 3831926650288338260
+    second: jackpot_6_120
+  - first:
+      213: -2774477072316022697
+    second: jackpot_6_121
+  - first:
+      213: 2760434736256078887
+    second: jackpot_6_122
+  - first:
+      213: 9150811601024224191
+    second: jackpot_6_123
+  - first:
+      213: -721288482979522043
+    second: jackpot_6_124
+  - first:
+      213: 3694648975500682528
+    second: jackpot_6_125
+  - first:
+      213: 4315509420100833976
+    second: jackpot_6_126
+  - first:
+      213: 4949995912377907548
+    second: jackpot_6_127
+  - first:
+      213: -1882608949580723315
+    second: jackpot_6_128
+  - first:
+      213: 8840568575827643147
+    second: jackpot_6_129
+  - first:
+      213: -3364090779554394374
+    second: jackpot_6_130
+  - first:
+      213: -5773201311430502149
+    second: jackpot_6_131
+  - first:
+      213: -7142306747877175090
+    second: jackpot_6_132
+  - first:
+      213: 8784330740260843987
+    second: jackpot_6_133
+  - first:
+      213: -5941978008701787429
+    second: jackpot_6_134
+  - first:
+      213: 7840516824990462008
+    second: jackpot_6_135
+  - first:
+      213: 2812866408520604593
+    second: jackpot_6_136
+  - first:
+      213: -1307066656242491579
+    second: jackpot_6_137
+  - first:
+      213: 2859529509349107164
+    second: jackpot_6_138
+  - first:
+      213: 4812802159641126410
+    second: jackpot_6_139
+  - first:
+      213: -316570320941727757
+    second: jackpot_6_140
+  - first:
+      213: 8073535671462263785
+    second: jackpot_6_141
+  - first:
+      213: 283912316716767401
+    second: jackpot_6_142
+  - first:
+      213: 8436014563444156893
+    second: jackpot_6_143
+  - first:
+      213: -8012427318913332234
+    second: jackpot_6_144
+  - first:
+      213: -4058936024087152837
+    second: jackpot_6_145
+  - first:
+      213: -3640199132610233218
+    second: jackpot_6_146
+  - first:
+      213: -5420420412228316518
+    second: jackpot_6_147
+  - first:
+      213: 6618708892905469215
+    second: jackpot_6_148
+  - first:
+      213: 2476840869660273249
+    second: jackpot_6_149
+  - first:
+      213: -8464992913996861950
+    second: jackpot_6_150
+  - first:
+      213: 3358564276831017852
+    second: jackpot_6_151
+  - first:
+      213: 8631094744134163170
+    second: jackpot_6_152
+  - first:
+      213: -7561889446822979278
+    second: jackpot_6_153
+  - first:
+      213: 790853196976438167
+    second: jackpot_6_154
+  - first:
+      213: 2380866930896278075
+    second: jackpot_6_155
+  - first:
+      213: -823021079223181415
+    second: jackpot_6_156
+  - first:
+      213: -6501213789005029265
+    second: jackpot_6_157
+  - first:
+      213: 7241260948183890810
+    second: jackpot_6_158
+  - first:
+      213: -1964997138408865576
+    second: jackpot_6_159
+  - first:
+      213: 4987237835844466574
+    second: jackpot_6_160
+  - first:
+      213: 8649550674621129524
+    second: jackpot_6_161
+  - first:
+      213: -6206978319143609841
+    second: jackpot_6_162
+  - first:
+      213: 6926367804910997119
+    second: jackpot_6_163
+  - first:
+      213: 4928486255197968873
+    second: jackpot_6_164
+  - first:
+      213: -236137665520397840
+    second: jackpot_6_165
+  - first:
+      213: -6890907203837727169
+    second: jackpot_6_166
+  - first:
+      213: 1171790297538800869
+    second: jackpot_6_167
+  - first:
+      213: 832835063237410832
+    second: jackpot_6_168
+  - first:
+      213: -4339084012255680051
+    second: jackpot_6_169
+  - first:
+      213: -6789370803199761039
+    second: jackpot_6_170
+  - first:
+      213: 6591255404590230499
+    second: jackpot_6_171
+  - first:
+      213: 1278036513368627583
+    second: jackpot_6_172
+  - first:
+      213: -4674886687569249170
+    second: jackpot_6_173
+  - first:
+      213: -5504977570874189602
+    second: jackpot_6_174
+  - first:
+      213: 5287397258415329656
+    second: jackpot_6_175
+  - first:
+      213: -4722936338572720154
+    second: jackpot_6_176
+  - first:
+      213: 8869381546214959800
+    second: jackpot_6_177
+  - first:
+      213: 2405999346391102638
+    second: jackpot_6_178
+  - first:
+      213: 7683526273171217587
+    second: jackpot_6_179
+  - first:
+      213: 888337800299244406
+    second: jackpot_6_180
+  - first:
+      213: -58312249021898140
+    second: jackpot_6_181
+  - first:
+      213: -4968886504196935517
+    second: jackpot_6_182
+  - first:
+      213: -658081363472728108
+    second: jackpot_6_183
+  - first:
+      213: 6273771240518302304
+    second: jackpot_6_184
+  - first:
+      213: 4734676804559696708
+    second: jackpot_6_185
+  - first:
+      213: -6069912920556062411
+    second: jackpot_6_186
+  - first:
+      213: 2927562001715919137
+    second: jackpot_6_187
+  - first:
+      213: -2991668743268837897
+    second: jackpot_6_188
+  - first:
+      213: 4355753490035037537
+    second: jackpot_6_189
+  - first:
+      213: 1074963883469575603
+    second: jackpot_6_190
+  - first:
+      213: 6020555752666403586
+    second: jackpot_6_191
+  - first:
+      213: -8114095370919831671
+    second: jackpot_6_192
+  - first:
+      213: -3206561096717845281
+    second: jackpot_6_193
+  - first:
+      213: 3126736288492649274
+    second: jackpot_6_194
+  - first:
+      213: -6436232313698939483
+    second: jackpot_6_195
+  - first:
+      213: -5756789299736427752
+    second: jackpot_6_196
+  - first:
+      213: -2823646763325992956
+    second: jackpot_6_197
+  - first:
+      213: -2170936657043133985
+    second: jackpot_6_198
+  - first:
+      213: -65963864946047460
+    second: jackpot_6_199
+  - first:
+      213: -222857084141190026
+    second: jackpot_6_200
+  - first:
+      213: 2341557479689525553
+    second: jackpot_6_201
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jackpot_6_0
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 3004
+        width: 124
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30db9f924acca6ac0800000000000000
+      internalID: -3861048725065843453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_1
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 2996
+        width: 154
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b6d5619aeab9310800000000000000
+      internalID: 1412914949358709530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_2
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 2982
+        width: 145
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96505dedccd57f560800000000000000
+      internalID: 7347444451571467625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_3
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 2698
+        width: 197
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4363f9353d92ac5d0800000000000000
+      internalID: -3041572610717567436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_4
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2823
+        width: 90
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e7cf1bf3d3a8fb0800000000000000
+      internalID: -4644832721900896677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_5
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 2704
+        width: 219
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b75da44e0e67980800000000000000
+      internalID: -8541392372148896915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_6
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 2833
+        width: 90
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e6388affa38ffe0800000000000000
+      internalID: -1155108434702275063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_7
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 2694
+        width: 230
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb2755c3eff2e040800000000000000
+      internalID: 4675580716897479675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_8
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 2828
+        width: 91
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84331b5999b582750800000000000000
+      internalID: 6280370395567698760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2499
+        width: 103
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f775664c4ba08460800000000000000
+      internalID: 7241976544898676728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_10
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 2577
+        width: 146
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc089fdeec0cfbcb0800000000000000
+      internalID: -4845942679039016757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_11
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 2656
+        width: 138
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfcf380c73fedf40800000000000000
+      internalID: 5755305087865966515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_12
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 2579
+        width: 48
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8192657156e86b960800000000000000
+      internalID: 7617432384578136344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_13
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 2578
+        width: 128
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1bb5d1577c6dd80800000000000000
+      internalID: -8226168363527982654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_14
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 2658
+        width: 154
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c237bea1c64af20800000000000000
+      internalID: 3432987678838303902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_15
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 2571
+        width: 59
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd07d74dbb69fa80800000000000000
+      internalID: -8432590366576276031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_16
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 2568
+        width: 120
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2908f3c27cbf74f70800000000000000
+      internalID: 9171575999022727314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_17
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 2648
+        width: 161
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca161376612d5ba0800000000000000
+      internalID: -6098681596488574259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_18
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 2630
+        width: 121
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d53043ac3d526de0800000000000000
+      internalID: -1341407223984671276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_19
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 2407
+        width: 249
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f648a5faa10c76e0800000000000000
+      internalID: -1838592714096490759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_20
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 2592
+        width: 43
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380c3e39546c2c380800000000000000
+      internalID: -8952375107122904957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_21
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2499
+        width: 121
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1745cf261a3b05340800000000000000
+      internalID: 4850574304409834609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_22
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 2534
+        width: 90
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf15ff820dd1cfa0800000000000000
+      internalID: -5782097443492126797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_23
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 2534
+        width: 95
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04124d6ad682c96e0800000000000000
+      internalID: -1829542897203797696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_24
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 2541
+        width: 71
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b75e61913b3badc0800000000000000
+      internalID: -3626739990837438538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_25
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 2526
+        width: 127
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fccba183df02e60800000000000000
+      internalID: 7935620960835391372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_26
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 2416
+        width: 396
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548f32af38d6b1830800000000000000
+      internalID: 4042945504099956805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_27
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 2528
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4224f6fd3bdde100800000000000000
+      internalID: 139008222701036110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_28
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2466
+        width: 126
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d62fd7fdcd2af1b0800000000000000
+      internalID: -5622130822168500525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_29
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2389
+        width: 292
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ed07d01e5ea7d50800000000000000
+      internalID: 6735948947441901169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_30
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2484
+        width: 52
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba692d467cc41d10800000000000000
+      internalID: 2095524535106890425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_31
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 2318
+        width: 120
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f487c70b03cf471f0800000000000000
+      internalID: -1047935527220905905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_32
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 2482
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5b1a4763b800dc0800000000000000
+      internalID: -3674784229933075030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_33
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 2343
+        width: 113
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672c288bdb4ea4060800000000000000
+      internalID: 6938609679413199478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2397
+        width: 140
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c07345ea29a89dd0800000000000000
+      internalID: -2479045593167335223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_35
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 2420
+        width: 143
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4ab7f794f230cd0800000000000000
+      internalID: -2593176967717346092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_36
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 2297
+        width: 49
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4607bb5946de9e0800000000000000
+      internalID: -1590504499134307075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_37
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 2335
+        width: 91
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5a95a56b30330c0800000000000000
+      internalID: -4597326712880388623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_38
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2214
+        width: 36
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813713d533a341910800000000000000
+      internalID: 1807133342763676440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_39
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 2275
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736b5978bf51cc060800000000000000
+      internalID: 6974974092945765943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_40
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2165
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc04d56a5ced15270800000000000000
+      internalID: 8237610133918400717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_41
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 2234
+        width: 39
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d428207a78c210ab0800000000000000
+      internalID: -5043701146544078259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_42
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 2186
+        width: 86
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f68a14b7974ad2f0800000000000000
+      internalID: -947366054720796936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_43
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 2211
+        width: 189
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086fabc4e9488ca40800000000000000
+      internalID: 5388702769575818880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_44
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 2223
+        width: 179
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705e8f1dd4c6f52b0800000000000000
+      internalID: -5593633130679835385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_45
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2138
+        width: 110
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9c684e0c6bcc700800000000000000
+      internalID: 562024993098484167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_46
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 2107
+        width: 175
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f510febb05e5a11c0800000000000000
+      internalID: -4532206374151585441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_47
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 2158
+        width: 95
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308a25df5edf7a360800000000000000
+      internalID: 7180987295104935939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_48
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 2123
+        width: 175
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da443acd96c8d82a0800000000000000
+      internalID: -6733571481547881299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_49
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1999
+        width: 106
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073698c01167b4900800000000000000
+      internalID: 669758785191502704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_50
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 2094
+        width: 158
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb2026bee2207a00800000000000000
+      internalID: 752139546423995389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_51
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 2172
+        width: 128
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfad3fb222307e10800000000000000
+      internalID: 2193308143348199351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_52
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1988
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aea5df1b06d8a150800000000000000
+      internalID: 5884188256426634920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_53
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1992
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f954f0de9749056e0800000000000000
+      internalID: -1850816195460119137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_54
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 2015
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc2f1cf7fc647da0800000000000000
+      internalID: -5948009395506959174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_55
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 1999
+        width: 118
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de183d5892a0d3290800000000000000
+      internalID: -7909154197137554963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1835
+        width: 48
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f29d35c93a7122b0800000000000000
+      internalID: -5611069272186055944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_57
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1957
+        width: 65
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a4c54caa39a2b70800000000000000
+      internalID: 8875068377335089700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_58
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1957
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101d1a45a629826e0800000000000000
+      internalID: -1862077460533620479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_59
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1896
+        width: 200
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1573cc4e9b49490800000000000000
+      internalID: -7740357467213180485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_60
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1905
+        width: 233
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f0e4ebc6829a4a0800000000000000
+      internalID: -6581684932910903441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_61
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1810
+        width: 119
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3c7385069c84e60800000000000000
+      internalID: 7946822958129333215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_62
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1928
+        width: 95
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b659224337e0538e0800000000000000
+      internalID: -1714448195185896085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_63
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 1906
+        width: 177
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a150fb56758d404a0800000000000000
+      internalID: -6627934881701755622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_64
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 1803
+        width: 140
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2338b6628697253a0800000000000000
+      internalID: -6678141809208884430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_65
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 1926
+        width: 145
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1e0a03c4a8fa5b0800000000000000
+      internalID: -5354909372082232849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_66
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1819
+        width: 92
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884cf0ff98aba9d30800000000000000
+      internalID: 4439065484579554440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_67
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 1744
+        width: 43
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4fb58f8519ca180800000000000000
+      internalID: -9102740935512689488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_68
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1903
+        width: 131
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b523ae637d0e079e0800000000000000
+      internalID: -1625552250536840613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_69
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 1739
+        width: 42
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9023239bca3d9de60800000000000000
+      internalID: 7987648152913195529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_70
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 1890
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd1e4b9452b1e150800000000000000
+      internalID: 5900193063284645304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_71
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1503
+        width: 155
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c46fbadcd444b250800000000000000
+      internalID: 5959463922271478978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_72
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1593
+        width: 189
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3aa2b8f4160c3e0800000000000000
+      internalID: -2035520037306326030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_73
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1703
+        width: 185
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10259637fbfc523a0800000000000000
+      internalID: -6690713250207018495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_74
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1655
+        width: 97
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a081698bcac8078b0800000000000000
+      internalID: -5156466899880110070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_75
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1650
+        width: 215
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fe1f7d77f5fdcd0800000000000000
+      internalID: -2531199497230225657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_76
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 1654
+        width: 102
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4882a46ea86cea8c0800000000000000
+      internalID: -3986030320304904060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_77
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 1641
+        width: 232
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d7beafea375ef70800000000000000
+      internalID: 9215899407854828951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_78
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 1566
+        width: 242
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52df2f102b23b04c0800000000000000
+      internalID: -4320303677413589723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_79
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 1590
+        width: 173
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a511cba5851c4ee0800000000000000
+      internalID: -1275620930596301400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_80
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1711
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75199ba54c3c15e50800000000000000
+      internalID: 6796428560781906263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_81
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1669
+        width: 95
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbcc7b1f38f67300800000000000000
+      internalID: 249659779293432822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_82
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1450
+        width: 129
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8460927cfb818c230800000000000000
+      internalID: 3659201909197702728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_83
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1450
+        width: 151
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62801289312eb1f20800000000000000
+      internalID: 3394555317938358310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_84
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1511
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644be93ac76741da0800000000000000
+      internalID: -5975020527920696250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_85
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 1457
+        width: 148
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02aebe79cec3be500800000000000000
+      internalID: 426501576575412768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_86
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 1507
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6091de1350fe76d40800000000000000
+      internalID: 5577689469113145606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_87
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1352
+        width: 139
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376dab14e6e957440800000000000000
+      internalID: 4933023163240601203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_88
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1371
+        width: 166
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b8a66f20a5d5550800000000000000
+      internalID: 6151171634828577550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_89
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1424
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566946cb026bcdd00800000000000000
+      internalID: 998873469085324901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_90
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1199
+        width: 170
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc18100afe96289b0800000000000000
+      internalID: -5079380951817944625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_91
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1423
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2bc2a43617862f0800000000000000
+      internalID: -979408247692938580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_92
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1412
+        width: 108
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbbe998e814322b0800000000000000
+      internalID: -5610568630323463207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_93
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1412
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0188450939e52610800000000000000
+      internalID: 1595938074083754255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_94
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1400
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b781b778caba24ef0800000000000000
+      internalID: -125349082117236613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_95
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 1432
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c3d4b8fd87fe110800000000000000
+      internalID: 1292384519588756632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_96
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 1374
+        width: 74
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89441742c00ceda0800000000000000
+      internalID: -5914351376228136566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_97
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 1421
+        width: 106
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f4fb3d3f3baa350800000000000000
+      internalID: 6028828910999785262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_98
+      rect:
+        serializedVersion: 2
+        x: 2455
+        y: 1289
+        width: 193
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f995d9b75f1ff2c50800000000000000
+      internalID: 6642794012037962143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_99
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 1369
+        width: 76
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33dff2b7e97ef8220800000000000000
+      internalID: 2490463786816765235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_100
+      rect:
+        serializedVersion: 2
+        x: 2972
+        y: 1309
+        width: 303
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0445f067198074b0800000000000000
+      internalID: -5444701215986990065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_101
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1260
+        width: 155
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fd12095c8e06900800000000000000
+      internalID: 675795879329914649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_102
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1344
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46989812f20c841c0800000000000000
+      internalID: -4519150917407635100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_103
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1308
+        width: 189
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ef3b65806190fd0800000000000000
+      internalID: -2375343103391039885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_104
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1394
+        width: 76
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b663bd547dbb1fe60800000000000000
+      internalID: 7994377346823698027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_105
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1387
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3687d0184e8672320800000000000000
+      internalID: 2533108646046169187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_106
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1325
+        width: 166
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99be9ecc1700d1bc0800000000000000
+      internalID: -3810889220916384871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_107
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1137
+        width: 140
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9de5138a8cbf680800000000000000
+      internalID: -8720155628764472927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_108
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1140
+        width: 175
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df369e74e0e1cf10800000000000000
+      internalID: 2288357357661863890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_109
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 1254
+        width: 133
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e9bb24b3f461630800000000000000
+      internalID: 3897389643476999707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_110
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1231
+        width: 38
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1bbaf45536f3a370800000000000000
+      internalID: 8332774444484967196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_111
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 1181
+        width: 96
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c96f3a4b5377c490800000000000000
+      internalID: -7726079799805908538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_112
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 1213
+        width: 86
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9e25a1f120a0c60800000000000000
+      internalID: 7785037238472206789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_113
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 1206
+        width: 77
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72c16a328e8a1620800000000000000
+      internalID: 2745663612812116603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_114
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 924
+        width: 246
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83c7bdb65214b1e0800000000000000
+      internalID: -2183099755608423540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_115
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1079
+        width: 144
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c9f85b8967e55f0800000000000000
+      internalID: -766044488353211277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_116
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1132
+        width: 32
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d621167e670eff0800000000000000
+      internalID: -8876463116620422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_117
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 995
+        width: 270
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407b100c8b78d2f30800000000000000
+      internalID: 4552444025906509572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_118
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 955
+        width: 156
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff46523dc244d9e0800000000000000
+      internalID: -1597578518729437185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_119
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 1128
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5639788da715b2740800000000000000
+      internalID: 5128282188752065381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_120
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 1062
+        width: 40
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455f9cb6cfcbd2530800000000000000
+      internalID: 3831926650288338260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_121
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 1047
+        width: 103
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75043237dc31f79d0800000000000000
+      internalID: -2774477072316022697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_122
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 944
+        width: 60
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724513864c80f4620800000000000000
+      internalID: 2760434736256078887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_123
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 811
+        width: 450
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb82950ba63efe70800000000000000
+      internalID: 9150811601024224191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_124
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 955
+        width: 199
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50adc6f32f77df5f0800000000000000
+      internalID: -721288482979522043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_125
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 928
+        width: 93
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025aa7a0ba7064330800000000000000
+      internalID: 3694648975500682528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_126
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 947
+        width: 135
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b256f9f3f4c3eb30800000000000000
+      internalID: 4315509420100833976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_127
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 928
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59bbec5e0be1b440800000000000000
+      internalID: 4949995912377907548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_128
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 863
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b05458221afd5e0800000000000000
+      internalID: -1882608949580723315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_129
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 908
+        width: 108
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b00b6c74200ba70800000000000000
+      internalID: 8840568575827643147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_130
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 786
+        width: 166
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe4e7c72495051d0800000000000000
+      internalID: -3364090779554394374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_131
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 865
+        width: 83
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf89d57bef771efa0800000000000000
+      internalID: -5773201311430502149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_132
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 769
+        width: 97
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0d7e7badd61ec90800000000000000
+      internalID: -7142306747877175090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_133
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 915
+        width: 42
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1bac2544638e970800000000000000
+      internalID: 8784330740260843987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_134
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 785
+        width: 425
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2a528ab7ad98da0800000000000000
+      internalID: -5941978008701787429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_135
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 772
+        width: 146
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830b701f28c1fcc60800000000000000
+      internalID: 7840516824990462008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_136
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 104
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbdf78681f490720800000000000000
+      internalID: 2812866408520604593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_137
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 724
+        width: 46
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f98e02dcd5cdde0800000000000000
+      internalID: -1307066656242491579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_138
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 677
+        width: 97
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5208530f61fa720800000000000000
+      internalID: 2859529509349107164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_139
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 707
+        width: 76
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0664ab90128ac240800000000000000
+      internalID: 4812802159641126410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_140
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 702
+        width: 56
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff36d968f05b9bf0800000000000000
+      internalID: -316570320941727757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_141
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 792
+        width: 145
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebf3f2fae5fa0070800000000000000
+      internalID: 8073535671462263785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_142
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 727
+        width: 98
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8d2417fb8a0f300800000000000000
+      internalID: 283912316716767401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_143
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 673
+        width: 89
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd96c1eac8eb21570800000000000000
+      internalID: 8436014563444156893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_144
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 580
+        width: 63
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb098b1ec32ec090800000000000000
+      internalID: -8012427318913332234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_145
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 652
+        width: 81
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37bf36f033cba7c0800000000000000
+      internalID: -4058936024087152837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_146
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 596
+        width: 67
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cf41dec2a6b7dc0800000000000000
+      internalID: -3640199132610233218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_147
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 668
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92dadb8a5cc6c4b0800000000000000
+      internalID: -5420420412228316518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_148
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 526
+        width: 128
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f157951bba06adb50800000000000000
+      internalID: 6618708892905469215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_149
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 554
+        width: 69
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a2549e5a18f5220800000000000000
+      internalID: 2476840869660273249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_150
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 561
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ea40f4bcd468a80800000000000000
+      internalID: -8464992913996861950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_151
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 544
+        width: 132
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b54d35a640c9e20800000000000000
+      internalID: 3358564276831017852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_152
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 578
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea9bd6b0fec7c770800000000000000
+      internalID: 8631094744134163170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_153
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 591
+        width: 32
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239575bdc95ce0790800000000000000
+      internalID: -7561889446822979278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_154
+      rect:
+        serializedVersion: 2
+        x: 3022
+        y: 623
+        width: 115
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b3343eacca9fa00800000000000000
+      internalID: 790853196976438167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_155
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 454
+        width: 159
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b321c89fbd98a0120800000000000000
+      internalID: 2380866930896278075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_156
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 455
+        width: 218
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f5e3260ba0494f0800000000000000
+      internalID: -823021079223181415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_157
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 463
+        width: 156
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60eb79f08c07c5a0800000000000000
+      internalID: -6501213789005029265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_158
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 536
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bb86e67702e7460800000000000000
+      internalID: 7241260948183890810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_159
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 419
+        width: 110
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d00b7c738deab4e0800000000000000
+      internalID: -1964997138408865576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_160
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 441
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87b5ef536a363540800000000000000
+      internalID: 4987237835844466574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_161
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 326
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4336883e280690870800000000000000
+      internalID: 8649550674621129524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_162
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 399
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ad4eeca126cd9a0800000000000000
+      internalID: -6206978319143609841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_163
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 353
+        width: 110
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e0c6332d66f1060800000000000000
+      internalID: 6926367804910997119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_164
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 423
+        width: 69
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e958790320856440800000000000000
+      internalID: 4928486255197968873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_165
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 415
+        width: 74
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f111985b0219bcf0800000000000000
+      internalID: -236137665520397840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_166
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 368
+        width: 148
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e621f58649e50a0800000000000000
+      internalID: -6890907203837727169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_167
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 401
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecac043119034010800000000000000
+      internalID: 1171790297538800869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_168
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 360
+        width: 114
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01081c4d313de8b00800000000000000
+      internalID: 832835063237410832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_169
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 379
+        width: 178
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc96cee841a78c3c0800000000000000
+      internalID: -4339084012255680051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_170
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 432
+        width: 49
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175aed2e93f47c1a0800000000000000
+      internalID: -6789370803199761039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_171
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 229
+        width: 159
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb69765ed7d87b50800000000000000
+      internalID: 6591255404590230499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_172
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 438
+        width: 51
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79d055007f7cb110800000000000000
+      internalID: 1278036513368627583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_173
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 430
+        width: 60
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c7b3683577f1fb0800000000000000
+      internalID: -4674886687569249170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_174
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 393
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed81d8fd0146a93b0800000000000000
+      internalID: -5504977570874189602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_175
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 392
+        width: 91
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871583eeacb906940800000000000000
+      internalID: 5287397258415329656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_176
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 434
+        width: 54
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7c69a5c62c47eb0800000000000000
+      internalID: -4722936338572720154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_177
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 327
+        width: 137
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba2c87368f561b70800000000000000
+      internalID: 8869381546214959800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_178
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 407
+        width: 97
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4b67378a3d36120800000000000000
+      internalID: 2405999346391102638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_179
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 442
+        width: 24
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc50c6bf6e51aa60800000000000000
+      internalID: 7683526273171217587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_180
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 380
+        width: 113
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b6363d582045c00800000000000000
+      internalID: 888337800299244406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_181
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 211
+        width: 174
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462eef68155d03ff0800000000000000
+      internalID: -58312249021898140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_182
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 186
+        width: 46
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0fb1cfc08fa0bb0800000000000000
+      internalID: -4968886504196935517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_183
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 167
+        width: 163
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df37e09c760ed6f0800000000000000
+      internalID: -658081363472728108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_184
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 275
+        width: 132
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ab72114b9e01750800000000000000
+      internalID: 6273771240518302304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_185
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 258
+        width: 64
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443ff06e773f4b140800000000000000
+      internalID: 4734676804559696708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_186
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 212
+        width: 98
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539b3b8cb5653cba0800000000000000
+      internalID: -6069912920556062411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_187
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 244
+        width: 69
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1297532312ac0a820800000000000000
+      internalID: 2927562001715919137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_188
+      rect:
+        serializedVersion: 2
+        x: 2828
+        y: 292
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f552d7e0257b76d0800000000000000
+      internalID: -2991668743268837897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_189
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 113
+        width: 212
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165d4bea8beb27c30800000000000000
+      internalID: 4355753490035037537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_190
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1
+        width: 257
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b51494e4f90bee00800000000000000
+      internalID: 1074963883469575603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_191
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 148
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2039d1c0f8f4d8350800000000000000
+      internalID: 6020555752666403586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_192
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 159
+        width: 112
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9879eae1041f46f80800000000000000
+      internalID: -8114095370919831671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_193
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 40
+        width: 177
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcbb8feba10083d0800000000000000
+      internalID: -3206561096717845281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_194
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 1
+        width: 160
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b7de59616646b20800000000000000
+      internalID: 3126736288492649274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_195
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 147
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad8512bfc8eda6a0800000000000000
+      internalID: -6436232313698939483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_196
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 108
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813c076f1a6cb10b0800000000000000
+      internalID: -5756789299736427752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_197
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 133
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400d5c4aa3460d8d0800000000000000
+      internalID: -2823646763325992956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_198
+      rect:
+        serializedVersion: 2
+        x: 2915
+        y: 139
+        width: 210
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9e11fcc984fd1e0800000000000000
+      internalID: -2170936657043133985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_199
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 81
+        width: 173
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1601edd636a51ff0800000000000000
+      internalID: -65963864946047460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_200
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 1
+        width: 103
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674c518a9a048ecf0800000000000000
+      internalID: -222857084141190026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jackpot_6_201
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 1
+        width: 154
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1399d062f12ee7020800000000000000
+      internalID: 2341557479689525553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jackpot_6_0: -3861048725065843453
+      jackpot_6_1: 1412914949358709530
+      jackpot_6_10: -4845942679039016757
+      jackpot_6_100: -5444701215986990065
+      jackpot_6_101: 675795879329914649
+      jackpot_6_102: -4519150917407635100
+      jackpot_6_103: -2375343103391039885
+      jackpot_6_104: 7994377346823698027
+      jackpot_6_105: 2533108646046169187
+      jackpot_6_106: -3810889220916384871
+      jackpot_6_107: -8720155628764472927
+      jackpot_6_108: 2288357357661863890
+      jackpot_6_109: 3897389643476999707
+      jackpot_6_11: 5755305087865966515
+      jackpot_6_110: 8332774444484967196
+      jackpot_6_111: -7726079799805908538
+      jackpot_6_112: 7785037238472206789
+      jackpot_6_113: 2745663612812116603
+      jackpot_6_114: -2183099755608423540
+      jackpot_6_115: -766044488353211277
+      jackpot_6_116: -8876463116620422
+      jackpot_6_117: 4552444025906509572
+      jackpot_6_118: -1597578518729437185
+      jackpot_6_119: 5128282188752065381
+      jackpot_6_12: 7617432384578136344
+      jackpot_6_120: 3831926650288338260
+      jackpot_6_121: -2774477072316022697
+      jackpot_6_122: 2760434736256078887
+      jackpot_6_123: 9150811601024224191
+      jackpot_6_124: -721288482979522043
+      jackpot_6_125: 3694648975500682528
+      jackpot_6_126: 4315509420100833976
+      jackpot_6_127: 4949995912377907548
+      jackpot_6_128: -1882608949580723315
+      jackpot_6_129: 8840568575827643147
+      jackpot_6_13: -8226168363527982654
+      jackpot_6_130: -3364090779554394374
+      jackpot_6_131: -5773201311430502149
+      jackpot_6_132: -7142306747877175090
+      jackpot_6_133: 8784330740260843987
+      jackpot_6_134: -5941978008701787429
+      jackpot_6_135: 7840516824990462008
+      jackpot_6_136: 2812866408520604593
+      jackpot_6_137: -1307066656242491579
+      jackpot_6_138: 2859529509349107164
+      jackpot_6_139: 4812802159641126410
+      jackpot_6_14: 3432987678838303902
+      jackpot_6_140: -316570320941727757
+      jackpot_6_141: 8073535671462263785
+      jackpot_6_142: 283912316716767401
+      jackpot_6_143: 8436014563444156893
+      jackpot_6_144: -8012427318913332234
+      jackpot_6_145: -4058936024087152837
+      jackpot_6_146: -3640199132610233218
+      jackpot_6_147: -5420420412228316518
+      jackpot_6_148: 6618708892905469215
+      jackpot_6_149: 2476840869660273249
+      jackpot_6_15: -8432590366576276031
+      jackpot_6_150: -8464992913996861950
+      jackpot_6_151: 3358564276831017852
+      jackpot_6_152: 8631094744134163170
+      jackpot_6_153: -7561889446822979278
+      jackpot_6_154: 790853196976438167
+      jackpot_6_155: 2380866930896278075
+      jackpot_6_156: -823021079223181415
+      jackpot_6_157: -6501213789005029265
+      jackpot_6_158: 7241260948183890810
+      jackpot_6_159: -1964997138408865576
+      jackpot_6_16: 9171575999022727314
+      jackpot_6_160: 4987237835844466574
+      jackpot_6_161: 8649550674621129524
+      jackpot_6_162: -6206978319143609841
+      jackpot_6_163: 6926367804910997119
+      jackpot_6_164: 4928486255197968873
+      jackpot_6_165: -236137665520397840
+      jackpot_6_166: -6890907203837727169
+      jackpot_6_167: 1171790297538800869
+      jackpot_6_168: 832835063237410832
+      jackpot_6_169: -4339084012255680051
+      jackpot_6_17: -6098681596488574259
+      jackpot_6_170: -6789370803199761039
+      jackpot_6_171: 6591255404590230499
+      jackpot_6_172: 1278036513368627583
+      jackpot_6_173: -4674886687569249170
+      jackpot_6_174: -5504977570874189602
+      jackpot_6_175: 5287397258415329656
+      jackpot_6_176: -4722936338572720154
+      jackpot_6_177: 8869381546214959800
+      jackpot_6_178: 2405999346391102638
+      jackpot_6_179: 7683526273171217587
+      jackpot_6_18: -1341407223984671276
+      jackpot_6_180: 888337800299244406
+      jackpot_6_181: -58312249021898140
+      jackpot_6_182: -4968886504196935517
+      jackpot_6_183: -658081363472728108
+      jackpot_6_184: 6273771240518302304
+      jackpot_6_185: 4734676804559696708
+      jackpot_6_186: -6069912920556062411
+      jackpot_6_187: 2927562001715919137
+      jackpot_6_188: -2991668743268837897
+      jackpot_6_189: 4355753490035037537
+      jackpot_6_19: -1838592714096490759
+      jackpot_6_190: 1074963883469575603
+      jackpot_6_191: 6020555752666403586
+      jackpot_6_192: -8114095370919831671
+      jackpot_6_193: -3206561096717845281
+      jackpot_6_194: 3126736288492649274
+      jackpot_6_195: -6436232313698939483
+      jackpot_6_196: -5756789299736427752
+      jackpot_6_197: -2823646763325992956
+      jackpot_6_198: -2170936657043133985
+      jackpot_6_199: -65963864946047460
+      jackpot_6_2: 7347444451571467625
+      jackpot_6_20: -8952375107122904957
+      jackpot_6_200: -222857084141190026
+      jackpot_6_201: 2341557479689525553
+      jackpot_6_21: 4850574304409834609
+      jackpot_6_22: -5782097443492126797
+      jackpot_6_23: -1829542897203797696
+      jackpot_6_24: -3626739990837438538
+      jackpot_6_25: 7935620960835391372
+      jackpot_6_26: 4042945504099956805
+      jackpot_6_27: 139008222701036110
+      jackpot_6_28: -5622130822168500525
+      jackpot_6_29: 6735948947441901169
+      jackpot_6_3: -3041572610717567436
+      jackpot_6_30: 2095524535106890425
+      jackpot_6_31: -1047935527220905905
+      jackpot_6_32: -3674784229933075030
+      jackpot_6_33: 6938609679413199478
+      jackpot_6_34: -2479045593167335223
+      jackpot_6_35: -2593176967717346092
+      jackpot_6_36: -1590504499134307075
+      jackpot_6_37: -4597326712880388623
+      jackpot_6_38: 1807133342763676440
+      jackpot_6_39: 6974974092945765943
+      jackpot_6_4: -4644832721900896677
+      jackpot_6_40: 8237610133918400717
+      jackpot_6_41: -5043701146544078259
+      jackpot_6_42: -947366054720796936
+      jackpot_6_43: 5388702769575818880
+      jackpot_6_44: -5593633130679835385
+      jackpot_6_45: 562024993098484167
+      jackpot_6_46: -4532206374151585441
+      jackpot_6_47: 7180987295104935939
+      jackpot_6_48: -6733571481547881299
+      jackpot_6_49: 669758785191502704
+      jackpot_6_5: -8541392372148896915
+      jackpot_6_50: 752139546423995389
+      jackpot_6_51: 2193308143348199351
+      jackpot_6_52: 5884188256426634920
+      jackpot_6_53: -1850816195460119137
+      jackpot_6_54: -5948009395506959174
+      jackpot_6_55: -7909154197137554963
+      jackpot_6_56: -5611069272186055944
+      jackpot_6_57: 8875068377335089700
+      jackpot_6_58: -1862077460533620479
+      jackpot_6_59: -7740357467213180485
+      jackpot_6_6: -1155108434702275063
+      jackpot_6_60: -6581684932910903441
+      jackpot_6_61: 7946822958129333215
+      jackpot_6_62: -1714448195185896085
+      jackpot_6_63: -6627934881701755622
+      jackpot_6_64: -6678141809208884430
+      jackpot_6_65: -5354909372082232849
+      jackpot_6_66: 4439065484579554440
+      jackpot_6_67: -9102740935512689488
+      jackpot_6_68: -1625552250536840613
+      jackpot_6_69: 7987648152913195529
+      jackpot_6_7: 4675580716897479675
+      jackpot_6_70: 5900193063284645304
+      jackpot_6_71: 5959463922271478978
+      jackpot_6_72: -2035520037306326030
+      jackpot_6_73: -6690713250207018495
+      jackpot_6_74: -5156466899880110070
+      jackpot_6_75: -2531199497230225657
+      jackpot_6_76: -3986030320304904060
+      jackpot_6_77: 9215899407854828951
+      jackpot_6_78: -4320303677413589723
+      jackpot_6_79: -1275620930596301400
+      jackpot_6_8: 6280370395567698760
+      jackpot_6_80: 6796428560781906263
+      jackpot_6_81: 249659779293432822
+      jackpot_6_82: 3659201909197702728
+      jackpot_6_83: 3394555317938358310
+      jackpot_6_84: -5975020527920696250
+      jackpot_6_85: 426501576575412768
+      jackpot_6_86: 5577689469113145606
+      jackpot_6_87: 4933023163240601203
+      jackpot_6_88: 6151171634828577550
+      jackpot_6_89: 998873469085324901
+      jackpot_6_9: 7241976544898676728
+      jackpot_6_90: -5079380951817944625
+      jackpot_6_91: -979408247692938580
+      jackpot_6_92: -5610568630323463207
+      jackpot_6_93: 1595938074083754255
+      jackpot_6_94: -125349082117236613
+      jackpot_6_95: 1292384519588756632
+      jackpot_6_96: -5914351376228136566
+      jackpot_6_97: 6028828910999785262
+      jackpot_6_98: 6642794012037962143
+      jackpot_6_99: 2490463786816765235
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

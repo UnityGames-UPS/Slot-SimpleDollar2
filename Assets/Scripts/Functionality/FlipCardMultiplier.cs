@@ -54,7 +54,7 @@ public class FlipCardMultiplier : MonoBehaviour
 
         lastShownIndex = targetIndex;
         masterSequence.Append(BuildFlipStep(targetIndex));
-        masterSequence.OnComplete(() => { onComplete?.Invoke(); ForthSlotImage.sprite = normalSprite; });
+        masterSequence.OnComplete(() => { onComplete?.Invoke(); });
         masterSequence.Play();
     }
 
@@ -83,5 +83,9 @@ public class FlipCardMultiplier : MonoBehaviour
         do { index = UnityEngine.Random.Range(0, cardData.Length); }
         while (index == exclude);
         return index;
+    }
+    internal void SetNormal()
+    {
+        ForthSlotImage.sprite = normalSprite;
     }
 }

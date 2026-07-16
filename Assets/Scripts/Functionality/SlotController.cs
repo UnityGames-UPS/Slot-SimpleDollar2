@@ -22,7 +22,7 @@ public class SlotController : MonoBehaviour
   [SerializeField]
   internal Transform[] RedSlot_Transform;
   [SerializeField]
-  private FlipCardMultiplier forthslot;
+  internal FlipCardMultiplier forthslot;
   [SerializeField]
   private ImageAnimation[] RedStop_Anims;
   private Dictionary<int, Tweener> alltweens = new(3);
@@ -105,6 +105,7 @@ public class SlotController : MonoBehaviour
 
   [SerializeField] internal List<ImageAnimation> BorderAnimations;
   [SerializeField] internal List<GameObject> Silverimages;
+  [SerializeField] internal SpineAnimController jackpotAnims;
   private void Start()
   {
     tweenHeight = (15 * IconSizeFactor) - 280;
@@ -236,7 +237,7 @@ public class SlotController : MonoBehaviour
     FrozenList = new();
     uiController.ResetWinText();
     // uiController.Locked.SetActive(false);
-
+    forthslot.SetNormal();
     if (!uiController.CheckBalance(CurrentBet))
     {
       if (uiController) uiController.EnableLowBalance();
@@ -296,6 +297,7 @@ public class SlotController : MonoBehaviour
       if (audioController) audioController.PlayWLAudio("yellow");
       uiController.FullSlotAnim.gameObject.SetActive(true);
       uiController.FullSlotAnim.StartAnimation();
+      uiController.SlowScaleStop(uiController.MainSlotParent.transform);
       yield return new WaitForSeconds(1f);
       if (audioController) audioController.PlayWLAudio("cards");
       uiController.FullSlotAnim.StopAnimation();
@@ -367,21 +369,7 @@ public class SlotController : MonoBehaviour
     if (isThirdRowLocked) StartSpin();
   }
 
-  // void StartborderAnimation()
-  // {
-  //   for (int i = 0; i < 3; i++)
-  //   {
 
-  //     int symbolIndex = int.Parse(socketManager.ResultData.matrix[0][i]);
-  //     if (symbolIndex != 0)
-  //     {
-  //       BorderAnimations[i].StartAnimation();
-  //     }
-
-
-  //   }
-
-  // }
   void StartborderAnimation()
   {
     int[] values = new int[3];
@@ -527,46 +515,7 @@ public class SlotController : MonoBehaviour
     animScript.textureArray.Clear();
     animScript.textureArray.TrimExcess();
     animScript.AnimationSpeed = 8;
-    switch (val)
-    {
-      // case 5:
-      //   for (int i = 0; i < Symbol1.Length; i++)
-      //   {
-      //     animScript.textureArray.Add(Symbol1[i]);
-      //   }
-      //   break;
-      // case 1:
-      //   for (int i = 0; i < Symbol2.Length; i++)
-      //   {
-      //     animScript.textureArray.Add(Symbol2[i]);
-      //   }
-      //   break;
-      // case 2:
-      //   for (int i = 0; i < Symbol3.Length; i++)
-      //   {
-      //     animScript.textureArray.Add(Symbol3[i]);
-      //   }
-      //   break;
-      // case 3:
-      //   // animScript.AnimationSpeed = 6;
-      //   for (int i = 0; i < Symbol4.Length; i++)
-      //   {
-      //     animScript.textureArray.Add(Symbol4[i]);
-      //   }
-      //   break;
-      // case 4:
-      //   for (int i = 0; i < Symbol5.Length; i++)
-      //   {
-      //     animScript.textureArray.Add(Symbol5[i]);
-      //   }
-      //   break;
-      //   // case 6:
-      //   //   for (int i = 0; i < Symbol1.Length; i++)
-      //   //   {
-      //   //     animScript.textureArray.Add(Symbol1[i]);
-      //   //   }
-      //   //   break;
-    }
+
     // Debug.Log("Setting sprite val: " + val);
     animScript.AnimationSpeed = animScript.textureArray.Count - 5;
     StopImage.sprite = Slot_Sprites[val];
@@ -661,58 +610,7 @@ public class SlotController : MonoBehaviour
   #region BonusFeature
   int count = 1;
   int trys = 5;
-  // internal void switchtoBonusGame(bool isBonus = false)
-  // {
-  //   if (!isBonus)
-  //   {
-  //     uiController.MoveToBonus();
-  //     uiController.BonusCenterText.text = "SIMPLE DOLLAR";
-  //     count = 0;
-  //     trys = 5;
-  //     uiController.BonusButtonToggle(true);
-  //   }
-  //   uiController.setallBonusfalse(); // reset all highlights first
-  //   count++;
-  //   // uiController.BonusCenterText.text = count + " OF 5 OFFER";
-  //   string ps = count + " OF 5 OFFER";
-  //   StretchText(ps);
-  //   var bonusSettings = socketManager.FeaturesData.bonusSettings;
-  //   List<Reward> offers;
-  //   if (!isBonus) offers = socketManager.ResultData.payload.bonusData.rewards;
-  //   else offers = socketManager.BonusData.payload.bonusData.rewards;
 
-  //   for (int i = 0; i < uiController.bonusPrefabs.Count; i++)
-  //   {
-  //     bool isMatch = false;
-
-  //     foreach (var reward in offers)
-  //     {
-  //       if (reward.position == i)
-  //       {
-  //         isMatch = true;
-  //         if (!reward.isLocked)
-  //         {
-  //           if (reward.type == "extraoffer") uiController.bonusPrefabs[i].ShowResult(6);
-  //           else uiController.bonusPrefabs[i].ShowResult(reward.multiplierIndex);
-  //         }
-  //         // uiController.bonusPrefabs[i].Highlight.SetActive(isMatch);
-  //         break;
-  //       }
-  //     }
-
-  //     if (!isMatch)
-  //     {
-  //       uiController.bonusPrefabs[i].ShowResult(7);
-
-  //     }
-  //     uiController.bonusPrefabs[i].Highlight.SetActive(isMatch);
-
-  //   }
-  //   if (count == 5)
-  //   {
-  //     StartCoroutine(LastBonus());
-  //   }
-  // }
   internal void switchtoBonusGame(bool isBonus = false)
   {
     if (!isBonus)
@@ -803,7 +701,15 @@ public class SlotController : MonoBehaviour
   IEnumerator BonusEnd()
   {
     Debug.Log("Bonus Winnings-----" + socketManager.BonusData.payload.winAmount);
-    yield return uiController.UpdateWinnings(socketManager.PlayerData.balance, socketManager.BonusData.payload.winAmount, 3);
+    if (socketManager.BonusData.payload.majorWin == 0 && socketManager.BonusData.payload.megaWin == 0 && socketManager.BonusData.payload.minorWin == 0)
+    {
+      Debug.Log("22634727835682764578265723647825");
+      yield return uiController.UpdateWinnings(socketManager.PlayerData.balance, socketManager.BonusData.payload.winAmount, 3);
+    }
+    else
+    {
+      yield return bonusWinAnimation();
+    }
     isBonusdone = true;
     double totalwin = socketManager.ResultData.payload.winAmount + socketManager.BonusData.payload.winAmount;
     uiController.WinMain_Text.text = totalwin.ToString();
@@ -816,6 +722,29 @@ public class SlotController : MonoBehaviour
     yield return new WaitForSeconds(2f);
     socketManager.AccumulateBonus("ACCEPT");
     uiController.ScaleEffect();
+  }
+  IEnumerator bonusWinAnimation()
+  {
+
+    if (socketManager.BonusData.payload.majorWin != 0)
+    {
+
+      uiController.playJackpotAnimation("major", socketManager.BonusData.payload.majorWin);
+      yield return new WaitForSeconds(8f);
+    }
+    if (socketManager.BonusData.payload.minorWin != 0)
+    {
+
+      uiController.playJackpotAnimation("minor", socketManager.BonusData.payload.minorWin);
+      yield return new WaitForSeconds(8f);
+    }
+    if (socketManager.BonusData.payload.megaWin != 0)
+    {
+
+      uiController.playJackpotAnimation("mega", socketManager.BonusData.payload.megaWin);
+      yield return new WaitForSeconds(8f);
+    }
+    uiController.ToggleWinPopup(false);
   }
   #endregion
 }
