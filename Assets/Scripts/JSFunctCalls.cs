@@ -3,18 +3,20 @@ using UnityEngine;
 
 public class JSFunctCalls : MonoBehaviour
 {
-  [DllImport("__Internal")] private static extern void SendLogToReactNative(string message);
-
   [DllImport("__Internal")] private static extern void SendPostMessage(string message);
 
   [DllImport("__Internal")] private static extern void RegisterVisibilityChangeListener(string gameObjectName);
 
-  void OnEnable()
+  [DllImport("__Internal")] private static extern void RegisterResizeListener(string gameObjectName, string methodName);
+
+  [DllImport("__Internal")] private static extern void RegisterTokenListener(string gameObjectName, string methodName);
+
+  // Start, not Awake: the receiver's Awake must run before the initial dimensions callback.
+  void Start()
   {
-#if UNITY_WEBGL && !UNITY_EDITOR
-    Application.logMessageReceived += HandleLog;
-#endif
+    RegisterDimensionsListener();
   }
+
   internal void RegisterVisibilityListener(string gameObjectName)
   {
 #if UNITY_WEBGL && !UNITY_EDITOR
@@ -24,20 +26,26 @@ public class JSFunctCalls : MonoBehaviour
     Debug.Log("[JS] Visibility listener not registered (editor mode)");
 #endif
   }
-  void OnDisable()
+
+  // Self-contained resize bridge: the page drives OC.SwitchDisplay("width,height") on its own resize.
+  internal void RegisterDimensionsListener(string gameObjectName = "OC", string methodName = "SwitchDisplay")
   {
 #if UNITY_WEBGL && !UNITY_EDITOR
-    Application.logMessageReceived -= HandleLog;
+    RegisterResizeListener(gameObjectName, methodName);
+#else
+    Debug.Log($"[JS] Resize listener not registered ('{gameObjectName}.{methodName}', editor mode)");
 #endif
   }
 
-#if UNITY_WEBGL && !UNITY_EDITOR
-  void HandleLog(string logString, string stackTrace, LogType type)
+  // Inbound auth: routes the host's "TokenReceived" message to gameObjectName.methodName(json).
+  internal void RegisterAuthTokenListener(string gameObjectName, string methodName = "ReceiveAuthToken")
   {
-    string formattedMessage = $"[{type}] {logString}";
-    SendLogToReactNative(formattedMessage);
-  }
+#if UNITY_WEBGL && !UNITY_EDITOR
+    RegisterTokenListener(gameObjectName, methodName);
+#else
+    Debug.Log($"[JS] Token listener not registered ('{gameObjectName}.{methodName}', editor mode)");
 #endif
+  }
 
   internal void SendCustomMessage(string message)
   {
