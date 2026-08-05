@@ -50,10 +50,70 @@ public class SocketIOManager : MonoBehaviour
   private int missedPongs = 0;
   private const int MaxMissedPongs = 5;
   private Coroutine PingRoutine; //Back2 end
+
+  private bool hasFocus = true;
+  private float focusLostTime = 0f;
+  private Coroutine focusCheckRoutine;
+  private float maxBackgroundTime = 60f;
+  private bool isExiting = false;
+  private bool isBeingDestroyed = false;
+
   private void Awake()
   {
     //Debug.unityLogger.logEnabled = false;
     SetInit = false;
+  }
+
+  private void OnDestroy()
+  {
+    isBeingDestroyed = true;
+  }
+
+  internal void HandleFocusChange(bool focus)
+  {
+    hasFocus = focus;
+
+    if (!focus)
+    {
+      focusLostTime = Time.time;
+      if (focusCheckRoutine == null && !isExiting && !isBeingDestroyed)
+        focusCheckRoutine = StartCoroutine(FocusTimeoutCheck());
+    }
+    else
+    {
+      if (focusCheckRoutine != null)
+      {
+        StopCoroutine(focusCheckRoutine);
+        focusCheckRoutine = null;
+      }
+    }
+  }
+
+  private IEnumerator FocusTimeoutCheck()
+  {
+    while (!hasFocus && !isExiting && !isBeingDestroyed)
+    {
+      if (Time.time - focusLostTime >= maxBackgroundTime)
+      {
+        Debug.LogWarning("[SOCKET] Background timeout — closing connection");
+        isConnected = false;
+        ResetPingRoutine();
+
+        if (manager != null)
+        {
+          try { manager.Close(); }
+          catch (Exception e) { Debug.LogWarning($"[SOCKET] Focus close error: {e.Message}"); }
+        }
+
+        uiManager.DisconnectionPopup();
+        focusCheckRoutine = null;
+        yield break;
+      }
+
+      yield return new WaitForSecondsRealtime(1f);
+    }
+
+    focusCheckRoutine = null;
   }
 
   private void Start()
@@ -162,6 +222,7 @@ public class SocketIOManager : MonoBehaviour
     gameSocket.On<string>("alert", OnSocketAlert);
     gameSocket.On<string>("pong", OnPongReceived); //Back2 Start
     gameSocket.On<string>("AnotherDevice", OnSocketOtherDevice);
+    gameSocket.On<string>("balance:sync", OnBalanceSync);
 
     manager.Open(); //Back2 Start
   }
@@ -205,9 +266,20 @@ public class SocketIOManager : MonoBehaviour
   private void OnError(Error err)
   {
     Debug.LogError("Socket Error Message: " + err);
+    if (!string.IsNullOrEmpty(err.message) && err.message.Contains("Session expired"))
+    {
+      Debug.LogWarning("Session expired detected");
+      OnDisconnected();
 #if UNITY_WEBGL && !UNITY_EDITOR
-    JSManager.SendCustomMessage("error");
+      JSManager.SendCustomMessage("session_expired");
 #endif
+    }
+    else
+    {
+#if UNITY_WEBGL && !UNITY_EDITOR
+      JSManager.SendCustomMessage("error");
+#endif
+    }
   }
 
   void OnResult(string data)
@@ -241,6 +313,17 @@ public class SocketIOManager : MonoBehaviour
   {
     Debug.Log("Received Device Error with data: " + data);
     //  uiManager.ADfunction();
+  }
+
+  private void OnBalanceSync(string data)
+  {
+    BalanceSyncPayload syncPayload = JsonConvert.DeserializeObject<BalanceSyncPayload>(data);
+    if (syncPayload == null) return;
+
+    if (PlayerData == null) PlayerData = new Player();
+    PlayerData.balance = syncPayload.balance;
+
+    slotManager.UpdateBalanceDisplay(syncPayload.balance);
   }
 
   private void SendPing() //Back2 Start
@@ -319,6 +402,7 @@ public class SocketIOManager : MonoBehaviour
 
   internal IEnumerator CloseSocket() //Back2 Start
   {
+    isExiting = true;
     RaycastBlocker.SetActive(true);
     ResetPingRoutine();
 
@@ -488,6 +572,12 @@ public class AuthTokenData
   public string cookie;
   public string socketURL;
   public string nameSpace;
+}
+
+[Serializable]
+public class BalanceSyncPayload
+{
+  public double balance;
 }
 
 

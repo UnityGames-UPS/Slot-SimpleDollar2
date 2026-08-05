@@ -218,6 +218,15 @@ public class SlotController : MonoBehaviour
     audioController.CheckFocusFunction(focus, uiController.isMute, uiController.isBgMute);
   }
 
+  internal void UpdateBalanceDisplay(double newBalance)
+  {
+    if (uiController) uiController.UpdateBalance(newBalance);
+    if (!uiController.CheckBalance(CurrentBet))
+    {
+      if (uiController) uiController.EnableLowBalance();
+    }
+  }
+
   #endregion
 
   #region SpinLogic

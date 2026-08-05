@@ -1542,14 +1542,14 @@ public class UIManager : MonoBehaviour
   }
   void OnApplicationFocus(bool focus)
   {
-    OnFocusChanged(focus ? "1" : "0");
+    slotManager.OnApplicationFocus(focus); // audio-only — native path never touches the socket timeout
   }
   public void OnFocusChanged(string value)
   {
     bool focused = value == "1";
     Debug.Log("UNITY FOCUS CHANGED: " + value + " (focused: " + focused + ")");
     slotManager.OnApplicationFocus(focused);
-    // socketController?.HandleFocusChange(focused);
+    socketManager?.HandleFocusChange(focused); // JS-bridge path only
   }
   // private IEnumerator WaitForAnimComplete(ImageAnimation anim, System.Action onComplete)
   // {

@@ -123,9 +123,15 @@ public class AudioController : MonoBehaviour
                 break;
         }
     }
+    private bool isForceMuted = false;
+
     internal void CheckFocusFunction(bool focus, bool isMute, bool isBgMute)
     {
-        if (!focus)
+        bool forceMute = !focus;
+        if (forceMute == isForceMuted) return;
+        isForceMuted = forceMute;
+
+        if (forceMute)
         {
             // App lost focus - mute everything temporarily
             ToggleMute(true);
